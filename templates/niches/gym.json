@@ -1,0 +1,113 @@
+{
+ "name": "gym",
+ "hero": "/hero/gym.jpg",
+ "gallery_prefix": "gym",
+ "mark": "💪",
+ "jsonld_type": "ExerciseGym",
+ "city_ar": "الرياض",
+ "theme_css": ":root{\n  --primary:#dc2626;\n  --primary-dark:#7f1d1d;\n  --accent:#f97316;\n  --bg:#ffffff;\n  --card:#f8f9fb;\n  --text:#15181e;\n  --muted:#6b7280;\n  --border:#e5e7eb;\n  --wa:#25D366;\n  --ink:#0f1216;\n}",
+ "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 48px;background:#111;color:#fff;overflow:hidden}",
+ "cta_bg_css": ".cta-section::before{content:\"\";position:absolute;inset:0;background:url('https://pages.aidy.site/hero/gym.jpg') center/cover;opacity:.07}",
+ "page_title": "{name} — {niche_name} في {district}، {city_ar} | تقييم {rating}★",
+ "og_title": "{name} — {niche_name} في {district}، {city_ar}",
+ "meta_desc": "{name} — {niche_name} في {district} ب{city_ar}. تقييم {rating}★ من {reviews_fmt} تقييم على Google. العنوان، المواعيد، والتقييمات الحقيقية.",
+ "og_desc": "{name} — {niche_name} في {district} ب{city_ar}. تقييم {rating}★ من {reviews_fmt} تقييم على Google. العنوان، المواعيد، والتقييمات الحقيقية.",
+ "og_image": "{hero_url}",
+ "h1": "{name} — لياقة وتدريب في {district}",
+ "hero_tag": "في {district} ب{city_ar} — {niche_name} بتقييم {rating}★ من {reviews_fmt} تقييم حقيقي على Google.",
+ "about_sub": "{niche_name} في {city_ar} — والأرقام تتحدث عن نفسها",
+ "about_heading": "عن {name}",
+ "about_html": "<p><strong>{name}</strong> من الأماكن المعروفة في مجال <strong>{niche_name}</strong> في {city_ar} — والدليل على ذلك <strong>{reviews_fmt} تقييم</strong> على Google Maps بمتوسط <strong>{rating} من 5</strong>. هذا الرقم ليس من حملة إعلانية، بل من زوّار حقيقيين قيّموا المكان بصراحة.</p><p>يتحدث العملاء في تقييماتهم عن أمور ملموسة: جودة العمل، والنظافة، والتعامل الراقي، والاهتمام بالتفاصيل الصغيرة التي تصنع الفرق. جمعنا لك في هذه الصفحة كل ما تحتاجه قبل الزيارة: الصور الحقيقية، والعنوان التفصيلي، ومواعيد العمل الكاملة، والتقييمات بنصّها دون أي تعديل.</p>",
+ "cta_heading": "جاهز تبدأ؟ اسأل عن الاشتراك اليوم",
+ "cta_text": "تواصل مع {name} عبر الواتساب أو الاتصال — وسيردّون عليك مباشرة.",
+ "wa_message": "مرحباً {name}، رأيت صفحتكم على الإنترنت وأرغب بالاستفسار 👋",
+ "nav_services": "برامجنا",
+ "services_heading": "برامجنا",
+ "services_lead": "كل اللي تحتاجه توصل لهدفك",
+ "years": 10,
+ "usps": [
+  {
+   "icon": "⭐",
+   "title": "تقييم {rating} على Google",
+   "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+  },
+  {
+   "icon": "📞",
+   "title": "تواصل مباشر",
+   "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+  },
+  {
+   "icon": "🕒",
+   "title": "مواعيد واضحة",
+   "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+  },
+  {
+   "icon": "🤝",
+   "title": "خدمة محترمة",
+   "text": "استقبال وتعامل على مستوى"
+  }
+ ],
+ "services": [
+  {
+   "title": "أجهزة حديثة",
+   "text": "أجهزة cardio وحديد بمواصفات عالية مُصانة بانتظام لتجربة تمرين آمنة.",
+   "tag": "أجهزة"
+  },
+  {
+   "title": "تدريب شخصي",
+   "text": "مدربين متخصصين يتابعوا معاك خطوة بخطوة ويحددوا برنامج يناسب هدفك.",
+   "tag": "تدريب"
+  },
+  {
+   "title": "حصص جماعية",
+   "text": "حصص متنوعة بطاقة جماعية تخليك تلتزم وتستمتع في نفس الوقت.",
+   "tag": "حصص"
+  },
+  {
+   "title": "متابعة الاشتراك",
+   "text": "اشتراكات مرنة وإمكانية متابعة تقدّمك بشكل واضح.",
+   "tag": "اشتراك"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "ما الذي يميّز {name}؟",
+   "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم {name} من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+  },
+  {
+   "q": "كيف أحجز أو أستفسر؟",
+   "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+  },
+  {
+   "q": "أين الموقع بالضبط؟",
+   "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+  },
+  {
+   "q": "ما مواعيد العمل؟",
+   "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+  },
+  {
+   "q": "هل تتوفر تجربة قبل الاشتراك؟",
+   "a": "اسألهم عبر الواتساب عن إمكانية التجربة أو الزيارة قبل الاشتراك."
+  }
+ ],
+ "reviews": [],
+ "photos": [
+  {
+   "url": "{hero_url}",
+   "alt": ""
+  },
+  {
+   "url": "https://pages.aidy.site/stock/gym-0.jpg",
+   "alt": ""
+  },
+  {
+   "url": "https://pages.aidy.site/stock/gym-1.jpg",
+   "alt": ""
+  },
+  {
+   "url": "https://pages.aidy.site/stock/gym-2.jpg",
+   "alt": ""
+  }
+ ]
+}

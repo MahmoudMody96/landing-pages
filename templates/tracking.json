@@ -1,0 +1,7 @@
+{
+  "_comment": "Analytics config. Fill in after deploying Umami (Coolify one-click), then run: python tools/inject_tracking.py",
+  "enabled": false,
+  "provider": "umami",
+  "src": "",
+  "website_id": ""
+}

@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لوحة إدارة صفحات الهبوط</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0d1322; --sidebar:#0a0f1c; --card:#151c2e; --card2:#1b2338;
+  --border:rgba(255,255,255,.07); --border2:rgba(255,255,255,.13);
+  --text:#e9edf7; --muted:#8b95ad;
+  --accent:#7f8ff2; --accent-deep:#5a6ae0; --accent-soft:rgba(127,143,242,.14);
+  --ok:#3ed598; --bad:#f27272; --warn:#f2b84b; --info:#5aa9f8;
+  --mono:Consolas,"Source Code Pro",monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Cairo","Segoe UI",Tahoma,"Noto Naskh Arabic",sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.65;display:flex;min-height:100vh}
+svg.i{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex:none}
+svg.i.sm{width:15px;height:15px}
+
+/* ---------- sidebar ---------- */
+aside{width:252px;flex:none;background:var(--sidebar);border-left:1px solid var(--border);position:sticky;top:0;height:100vh;display:flex;flex-direction:column;padding:18px 13px 14px}
+.brand{display:flex;align-items:center;gap:10px;padding:4px 6px 18px}
+.brand .logo{width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,var(--accent),#a78bfa);display:grid;place-items:center;color:#fff;flex:none}
+.brand b{font-size:.98rem;font-weight:800;display:block;line-height:1.3}
+.brand span{font-size:.7rem;color:var(--muted);direction:ltr;display:block}
+.side-lab{font-size:.68rem;font-weight:700;color:#5d6780;letter-spacing:.06em;padding:14px 10px 7px}
+.side-nav{display:flex;flex-direction:column;gap:3px}
+.side-nav button{display:flex;align-items:center;gap:10px;width:100%;padding:9px 10px;border-radius:10px;background:transparent;border:0;color:var(--muted);font:inherit;font-weight:600;cursor:pointer;text-align:right;transition:.15s}
+.side-nav button:hover{background:rgba(255,255,255,.045);color:var(--text)}
+.side-nav button.on{background:var(--accent-soft);color:var(--accent)}
+.side-nav .ico{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:rgba(255,255,255,.05);color:inherit;flex:none}
+.side-nav button.on .ico{background:var(--accent-soft)}
+.side-nav .nb{margin-inline-start:auto;font-size:.68rem;font-weight:700;background:rgba(255,255,255,.07);color:var(--muted);padding:1px 7px;border-radius:99px;font-family:var(--mono)}
+.side-nav button.on .nb{background:rgba(127,143,242,.2);color:var(--accent)}
+.side-foot{margin-top:auto;border-top:1px solid var(--border);padding-top:12px}
+.side-foot .note{font-size:.7rem;color:#5d6780;padding:6px 8px;line-height:1.7}
+.side-foot .note code{font-family:var(--mono);direction:ltr;display:inline-block;color:var(--muted)}
+
+/* ---------- layout ---------- */
+.wrap{flex:1;min-width:0;display:flex;flex-direction:column}
+.topbar{display:flex;align-items:center;gap:12px;padding:12px 22px;border-bottom:1px solid var(--border);background:rgba(13,19,34,.85);backdrop-filter:blur(8px);position:sticky;top:0;z-index:9}
+.search{flex:1;max-width:560px;display:flex;align-items:center;gap:9px;background:var(--card);border:1px solid var(--border);border-radius:99px;padding:7px 15px;color:var(--muted)}
+.search input{background:transparent;border:0;outline:0;color:var(--text);width:100%;font:inherit;font-size:.86rem}
+.search input::placeholder{color:#5d6780}
+.top-spacer{flex:1}
+.icon-btn{width:38px;height:38px;border-radius:11px;background:var(--card);border:1px solid var(--border);display:grid;place-items:center;color:var(--muted);cursor:pointer;position:relative;flex:none}
+.icon-btn:hover{color:var(--text);border-color:var(--border2)}
+.icon-btn .dot{position:absolute;top:6px;left:6px;min-width:16px;height:16px;border-radius:99px;background:var(--accent);color:#fff;font-size:.6rem;font-weight:700;display:grid;place-items:center;padding:0 4px}
+.who{display:flex;align-items:center;gap:9px;background:var(--card);border:1px solid var(--border);border-radius:99px;padding:4px 12px 4px 5px;flex:none}
+.who .av{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#7f8ff2,#a78bfa);display:grid;place-items:center;color:#fff;font-weight:800;font-size:.8rem}
+.who .em{font-size:.76rem;color:var(--muted);direction:ltr;max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+main{padding:22px;max-width:1420px;width:100%}
+.page-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:20px}
+.page-head h1{font-size:1.6rem;font-weight:800;letter-spacing:-.01em}
+.page-head .sub{font-size:.82rem;color:var(--muted);margin-top:3px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{background:var(--card);border:1px solid var(--border);border-radius:99px;padding:5px 13px;font-size:.75rem;color:var(--muted);display:flex;align-items:center;gap:7px}
+.chip b{color:var(--text);font-weight:700}
+
+/* ---------- cards ---------- */
+.card{background:var(--card);border:1px solid var(--border);border-radius:15px;padding:17px 18px}
+.card h2{font-size:.95rem;font-weight:800;margin-bottom:13px;display:flex;align-items:center;gap:8px}
+.card h2 svg.i{color:var(--accent)}
+.card h2 .sub{font-weight:600;font-size:.74rem;color:var(--muted)}
+.grid{display:grid;gap:13px;margin-bottom:13px}
+.g-kpi{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.g-tile{grid-template-columns:repeat(auto-fit,minmax(196px,1fr))}
+.g-3{grid-template-columns:repeat(auto-fit,minmax(310px,1fr))}
+
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:15px;padding:16px 17px;position:relative;overflow:hidden}
+.kpi .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+.kpi .ic{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)}
+.kpi .v{font-size:1.85rem;font-weight:800;line-height:1.15;font-family:var(--mono)}
+.kpi .l{font-size:.78rem;color:var(--muted);margin-top:1px}
+.kpi .h{font-size:.68rem;color:#5d6780;margin-top:4px}
+.kpi.ok .ic{background:rgba(62,213,152,.13);color:var(--ok)}
+.kpi.bad .ic{background:rgba(242,114,114,.13);color:var(--bad)}
+.kpi.warn .ic{background:rgba(242,184,75,.13);color:var(--warn)}
+
+.tile{background:var(--card);border:1px solid var(--border);border-radius:15px;padding:14px 16px;display:flex;align-items:center;gap:12px}
+.tile .ic{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;flex:none;background:var(--accent-soft);color:var(--accent)}
+.tile .tx{min-width:0}
+.tile .v{font-size:1.15rem;font-weight:800;font-family:var(--mono);line-height:1.3}
+.tile .l{font-size:.74rem;color:var(--muted)}
+.tile.ok .ic{background:rgba(62,213,152,.13);color:var(--ok)}
+.tile.bad .ic{background:rgba(242,114,114,.13);color:var(--bad)}
+
+/* report banner */
+.banner{border-radius:15px;padding:17px 20px;margin-bottom:13px;position:relative;overflow:hidden;
+  background:linear-gradient(105deg,rgba(127,143,242,.16),rgba(167,139,250,.07) 45%,rgba(127,143,242,.02));
+  border:1px solid rgba(127,143,242,.32)}
+.banner::after{content:"";position:absolute;inset-inline-start:-60px;top:-70px;width:210px;height:210px;border-radius:50%;background:radial-gradient(circle,rgba(127,143,242,.28),transparent 68%);pointer-events:none}
+.banner .bh{display:flex;align-items:center;gap:9px;font-weight:800;font-size:.95rem;margin-bottom:14px}
+.banner .bh svg.i{color:#a78bfa}
+.banner .bh .dt{font-family:var(--mono);font-size:.76rem;color:var(--muted);font-weight:600;margin-inline-start:auto}
+.bstats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;position:relative}
+.bstat{text-align:center;padding:8px 4px;border-radius:11px;background:rgba(10,15,28,.4)}
+.bstat .v{font-size:1.15rem;font-weight:800;font-family:var(--mono)}
+.bstat .l{font-size:.72rem;color:var(--muted);margin-top:1px}
+
+/* pills / buttons */
+.pill{display:inline-flex;align-items:center;gap:5px;padding:3px 11px;border-radius:99px;font-size:.72rem;font-weight:700}
+.pill.ok{background:rgba(62,213,152,.13);color:var(--ok)}
+.pill.bad{background:rgba(242,114,114,.13);color:var(--bad)}
+.pill.warn{background:rgba(242,184,75,.13);color:var(--warn)}
+.pill.info{background:rgba(90,169,248,.13);color:var(--info)}
+button.act{background:var(--accent);color:#fff;border:0;border-radius:11px;padding:9px 17px;font:inherit;font-weight:700;font-size:.83rem;cursor:pointer;display:inline-flex;align-items:center;gap:7px;transition:.15s}
+button.act:hover{background:var(--accent-deep)}
+button.act.ghost{background:transparent;color:var(--accent);border:1px solid rgba(127,143,242,.4)}
+button.act.ghost:hover{background:var(--accent-soft)}
+button.act.danger{background:rgba(242,114,114,.14);color:var(--bad);border:1px solid rgba(242,114,114,.3)}
+button.act:disabled{opacity:.5;cursor:wait}
+
+/* table */
+.tbl-wrap{overflow:auto;max-height:520px;border-radius:11px;border:1px solid var(--border)}
+table{width:100%;border-collapse:collapse;font-size:.83rem}
+th,td{padding:9px 12px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap}
+th{background:var(--card2);font-weight:700;color:var(--muted);font-size:.74rem;position:sticky;top:0;z-index:1}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:rgba(127,143,242,.06)}
+/* let the shop-name column wrap so the 8-column table fits without a scrollbar */
+#pages-table td:first-child,#pages-table th:first-child{white-space:normal;min-width:180px}
+#pages-table td .mono{white-space:normal;word-break:break-all}
+.clickable{cursor:pointer}
+.mono{font-family:var(--mono);direction:ltr;text-align:left;font-size:.79rem}
+.small{font-size:.76rem;color:var(--muted)}
+pre{background:#080c16;color:#c7d2e5;border:1px solid var(--border);padding:14px;border-radius:11px;overflow:auto;font-family:var(--mono);font-size:.77rem;direction:ltr;text-align:left;white-space:pre-wrap;max-height:340px;line-height:1.6}
+input,select,textarea{font:inherit;padding:8px 12px;border:1px solid var(--border);border-radius:10px;background:#0f1526;color:var(--text);width:100%;outline:0}
+input:focus,select:focus,textarea:focus{border-color:rgba(127,143,242,.55)}
+select option{background:#0f1526}
+textarea{font-family:var(--mono);font-size:.78rem;min-height:230px;direction:ltr;text-align:left}
+label{display:block;font-size:.73rem;font-weight:700;color:var(--muted);margin-bottom:4px}
+.field{margin-bottom:11px}
+.formgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:11px}
+.row{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin-bottom:11px}
+.hint{font-size:.76rem;color:var(--muted);margin-bottom:9px;line-height:1.8}
+.badge{font-family:var(--mono);font-size:.72rem;background:rgba(255,255,255,.07);padding:2px 7px;border-radius:6px;direction:ltr;display:inline-block}
+.msg{padding:11px 14px;border-radius:10px;margin-bottom:11px;font-size:.82rem;white-space:pre-wrap}
+.msg.ok{background:rgba(62,213,152,.12);color:var(--ok);border:1px solid rgba(62,213,152,.25)}
+.msg.bad{background:rgba(242,114,114,.12);color:var(--bad);border:1px solid rgba(242,114,114,.25)}
+.hidden{display:none!important}
+.sec-title{font-size:.88rem;font-weight:800;margin:15px 0 9px;color:var(--text);display:flex;align-items:center;gap:7px}
+.sec-title svg.i{color:var(--accent)}
+.log{max-height:420px;overflow:auto;font-size:.8rem}
+.log div{padding:7px 2px;border-bottom:1px dashed var(--border);color:var(--muted)}
+.log div:first-child{color:var(--text)}
+details.gate{margin-top:13px;position:relative}
+details.gate summary{cursor:pointer;font-size:.76rem;color:var(--muted);font-weight:700;list-style:none;display:flex;align-items:center;gap:6px}
+details.gate summary::-webkit-details-marker{display:none}
+details.gate summary:hover{color:var(--text)}
+details.gate pre{margin-top:9px;max-height:180px}
+.empty{text-align:center;padding:26px 12px;color:#5d6780}
+.empty svg.i{width:34px;height:34px;margin-bottom:8px;color:#3f4a63}
+.empty b{display:block;color:var(--muted);font-size:.86rem;font-weight:700}
+.empty span{font-size:.75rem}
+.kv{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px dashed var(--border);font-size:.82rem}
+.kv:last-child{border-bottom:0}
+.kv .k{color:var(--muted);font-size:.78rem}
+.kv .v{font-family:var(--mono);font-size:.78rem;direction:ltr;text-align:left;overflow:hidden;text-overflow:ellipsis;max-width:62%}
+.live-list{max-height:210px;overflow:auto;border:1px solid var(--border);border-radius:11px;background:rgba(8,12,22,.4)}
+.lr{display:flex;align-items:center;gap:8px;padding:6px 11px;border-bottom:1px solid var(--border);font-size:.78rem}
+.lr:last-child{border-bottom:0}
+.lr .nm{flex:1;min-width:0;font-family:var(--mono);direction:ltr;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted)}
+.lr .pill{flex:none;font-size:.68rem;padding:1px 8px}
+
+@media(max-width:980px){
+  body{display:block}
+  aside{width:100%;height:auto;position:static;border-left:0;border-bottom:1px solid var(--border)}
+  .side-nav{flex-direction:row;overflow:auto;padding-bottom:4px}
+  .side-nav button{flex-direction:column;gap:5px;font-size:.72rem;min-width:88px;text-align:center}
+  .side-lab,.side-foot{display:none}
+  .search{max-width:none}
+  .who .em{display:none}
+  main{padding:15px}
+}
+</style>
+</head>
+<body>
+
+<aside>
+  <div class="brand">
+    <div class="logo"><svg class="i" viewBox="0 0 24 24"><path d="M3 5.5h7.5v6.2H3zM13.5 5.5H21v6.2h-7.5zM3 14.3h7.5v4.2H3zM13.5 14.3H21v4.2h-7.5z"/></svg></div>
+    <div><b>صفحات الهبوط</b><span>riyadh.aidy.site</span></div>
+  </div>
+
+  <div class="side-lab">القائمة</div>
+  <nav class="side-nav">
+    <button data-tab="ov" class="on">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><rect x="3" y="3" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"/></svg></span>
+      لوحة التحكم
+    </button>
+    <button data-tab="pages">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></svg></span>
+      الصفحات والسجلات <span class="nb" id="nav-badge-pages">—</span>
+    </button>
+    <button data-tab="checks">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+      الفحوصات والإجراءات
+    </button>
+    <button data-tab="publish">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M12 16V7"/><path d="M9 10l3-3 3 3"/><path d="M20 16.5A4.5 4.5 0 0 0 17.5 8h-1.2A6 6 0 1 0 5 14.5"/></svg></span>
+      النشر والإصدار
+    </button>
+    <button data-tab="niches">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M12 3l8 4.5-8 4.5-8-4.5z"/><path d="M4 12l8 4.5 8-4.5"/></svg></span>
+      المجالات والقوالب
+    </button>
+    <button data-tab="quality">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg></span>
+      جودة المحتوى <span class="nb" id="nav-badge-quality">—</span>
+    </button>
+    <button data-tab="media">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="8.5" cy="9.5" r="1.6"/><path d="M4 17.5l4.6-4.6 3.4 3.4 3-3L20 17.5"/></svg></span>
+      الوسائط والصور
+    </button>
+    <button data-tab="import">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M12 4v11"/><path d="M8 11l4 4 4-4"/><path d="M4 19h16"/></svg></span>
+      الاستيراد الجماعي
+    </button>
+    <button data-tab="stats">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-8M21 20H3"/></svg></span>
+      الإحصاء والمتابعة
+    </button>
+    <button data-tab="log">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+      السجل <span class="nb" id="nav-badge-log">0</span>
+    </button>
+  </nav>
+
+  <div class="side-lab">إجراءات سريعة</div>
+  <nav class="side-nav">
+    <button data-cmd="check">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 12.2l2.4 2.4 4.6-4.8"/></svg></span>
+      فحص المطابقة
+    </button>
+    <button data-cmd="gen">
+      <span class="ico"><svg class="i" viewBox="0 0 24 24"><path d="M13 3L5 14h5l-1 7 8-11h-5z"/></svg></span>
+      توليد الصفحات
+    </button>
+  </nav>
+
+  <div class="side-foot">
+    <div class="note">تشغيل محلي على <code>127.0.0.1</code><br>مفيش بيانات اعتماد مخزَّنة</div>
+  </div>
+</aside>
+
+<div class="wrap">
+  <header class="topbar">
+    <label class="search">
+      <svg class="i sm" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+      <input id="topsearch" placeholder="ابحث في المحلات بالاسم أو الـslug…">
+    </label>
+    <div class="top-spacer"></div>
+    <span id="gate-badge"></span>
+    <div class="icon-btn" id="bell" title="عدد إجراءات الجلسة">
+      <svg class="i" viewBox="0 0 24 24"><path d="M18 16H6l1.4-1.9V10a4.6 4.6 0 0 1 9.2 0v4.1z"/><path d="M10.4 19a1.8 1.8 0 0 0 3.2 0"/></svg>
+      <span class="dot" id="bell-dot">0</span>
+    </div>
+    <div class="who"><span class="av">م</span><span class="em" id="who-host">127.0.0.1</span></div>
+    <div class="icon-btn" id="logout" title="خروج">
+      <svg class="i" viewBox="0 0 24 24"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5M21 12H9"/></svg>
+    </div>
+  </header>
+
+  <main>
+  <!-- ============ لوحة التحكم ============ -->
+  <section id="tab-ov">
+    <div class="page-head">
+      <div>
+        <h1>لوحة التحكم</h1>
+        <p class="sub">نظرة عامة على الأداء — صفحات هبوط الرياض</p>
+      </div>
+      <div class="chips">
+        <span class="chip">آخر تحديث <b id="ov-time">—</b></span>
+        <span class="chip">المصدر <b style="direction:ltr;font-family:var(--mono)">data/businesses.json</b></span>
+      </div>
+    </div>
+
+    <div class="grid g-kpi" id="kpis"></div>
+    <div class="grid g-tile" id="tiles"></div>
+
+    <div class="banner">
+      <div class="bh">
+        <svg class="i" viewBox="0 0 24 24"><path d="M12 4l1.6 4.4L18 10l-4.4 1.6L12 16l-1.6-4.4L6 10l4.4-1.6z"/><path d="M18.5 15.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>
+        تقرير الجاهزية
+        <span class="dt" id="banner-date">—</span>
+      </div>
+      <div class="bstats" id="bstats"></div>
+      <details class="gate">
+        <summary><svg class="i sm" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg> مخرجات بوابة المطابقة البايتية</summary>
+        <pre id="gate-out">…</pre>
+      </details>
+    </div>
+
+    <div class="grid g-3">
+      <div class="card">
+        <h2><svg class="i" viewBox="0 0 24 24"><path d="M12 3l8 4.5-8 4.5-8-4.5z"/><path d="M4 12l8 4.5 8-4.5"/></svg> توزيع المجالات</h2>
+        <div class="tbl-wrap" style="max-height:320px">
+          <table id="niche-table"><thead><tr><th>المجال</th><th>صفحات</th><th>خدمات</th><th>مزايا</th><th>أسئلة</th></tr></thead><tbody></tbody></table>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2><svg class="i" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.6"/><circle cx="6" cy="18" r="2.6"/><circle cx="18" cy="12" r="2.6"/><path d="M8.2 7.2l7.6 3.6M8.2 16.8l7.6-3.6"/></svg> حالة git والنشر</h2>
+        <div id="git-card"></div>
+        <div class="row" style="margin:12px 0 0"><button class="act ghost" id="go-publish">افتح تاب النشر</button></div>
+      </div>
+
+      <div class="card">
+        <h2><svg class="i" viewBox="0 0 24 24"><path d="M3 12h4l2.5-6 4 12L16 12h5"/></svg> فحص الموقع الحي <span class="sub">riyadh.aidy.site</span></h2>
+        <div class="row">
+          <span id="live-sum" class="pill info">لم يُفحص بعد</span>
+          <span class="small" id="live-time"></span>
+        </div>
+        <div class="row"><button class="act" id="live-btn">افحص الـ30 صفحة الآن</button></div>
+        <div class="live-list" id="live-rows"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ الصفحات والسجلات ============ -->
+  <section id="tab-pages" class="hidden">
+    <div class="page-head">
+      <div>
+        <h1>الصفحات والسجلات</h1>
+        <p class="sub">كل محل = سجل واحد في <span class="badge">data/businesses.json</span> — والتعديل بيعيد التوليد أوتوماتيك</p>
+      </div>
+      <div class="chips"><span class="chip">سجل مُنتقى <b id="pages-count">—</b></span></div>
+    </div>
+
+    <div class="card" style="margin-bottom:13px">
+      <div class="row" style="margin-bottom:0">
+        <input id="q" placeholder="ابحث بالاسم أو الـslug…" style="flex:1;min-width:220px">
+        <select id="fcity" style="width:auto;min-width:150px"><option value="">كل المدن</option></select>
+        <select id="fniche" style="width:auto;min-width:150px"><option value="">كل المجالات</option></select>
+        <select id="fgallery" style="width:auto;min-width:170px">
+          <option value="">كل الصور</option>
+          <option value="default">صور افتراضية (لم تُغيَّر)</option>
+          <option value="own">صور مخصصة</option>
+        </select>
+        <button class="act ghost" id="refresh-pages">تحديث</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="tbl-wrap">
+        <table id="pages-table">
+          <thead><tr><th>المحل</th><th>المجال</th><th>المنطقة</th><th>التقييم</th><th>تقييمات</th><th>الهاتف</th><th>الصور</th><th>الحالة</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="hint" style="margin:11px 0 0">اضغط على أي صف لتعديل السجل.</div>
+    </div>
+
+    <div id="editor" class="hidden">
+      <div class="card" style="margin-top:13px">
+        <h2><svg class="i" viewBox="0 0 24 24"><path d="M4 20h4l10-10-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg> <span id="ed-title">تعديل سجل</span></h2>
+        <div id="ed-msg"></div>
+        <div class="formgrid" id="ed-form"></div>
+        <div class="row" style="margin-top:13px">
+          <button class="act" id="ed-save">حفظ وأعد التوليد</button>
+          <button class="act ghost" id="ed-preview">معاينة الصفحة</button>
+          <button class="act ghost" id="ed-recheck">فحص المطابقة</button>
+          <button class="act ghost" id="ed-close">إغلاق</button>
+        </div>
+        <div class="sec-title">محرر السجل الكامل (JSON)</div>
+        <div class="hint">احفظ من هنا لأي حقل غير معروض في النموذج (الخدمات، الأسئلة، التقييمات، JSON-LD…). المفتاح <span class="badge">slug</span> ثابت.</div>
+        <textarea id="ed-raw"></textarea>
+        <div class="row" style="margin:11px 0 0"><button class="act" id="ed-save-raw">حفظ الـJSON وأعد التوليد</button></div>
+        <pre id="ed-out" style="margin-top:11px"></pre>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:13px">
+      <h2><svg class="i" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg> إضافة محل جديد</h2>
+      <div class="hint">سجل مصغّر فقط: المعرفات والأساسيات. كل حاجة تانية (اللون، الخدمات، الأسئلة، نصوص SEO، صور المعرض) بتتُورَّث من ملف المجال.</div>
+      <textarea id="new-raw" placeholder='{"slug":"my-new-shop","file":"my-new-shop.html","niche":"coffee","name":"My New Shop","url":"https://riyadh.aidy.site/sa/riyadh/my-new-shop.html","phone_intl":"+966500000000","rating":4.6,"review_count":120,"address":"…","district":"…"}'></textarea>
+      <div class="row" style="margin:11px 0 0"><button class="act" id="new-add">أضف السجل وولّد الصفحة</button></div>
+      <pre id="new-out" style="margin-top:11px"></pre>
+    </div>
+  </section>
+
+  <!-- ============ الفحوصات والإجراءات ============ -->
+  <section id="tab-checks" class="hidden">
+    <div class="page-head">
+      <div>
+        <h1>الفحوصات والإجراءات</h1>
+        <p class="sub">البوابة الحاسمة: كل صفحة لازم تتولّد بايت-ببايت من البيانات + التمبليت</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2><svg class="i" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg> الإجراءات</h2>
+      <div class="row">
+        <button class="act" data-cmd="check">فحص المطابقة البايتية</button>
+        <button class="act" data-cmd="gen">توليد الصفحات</button>
+        <button class="act" data-cmd="build-sim">محاكاة بناء الإيمج</button>
+      </div>
+      <pre id="run-out">اختَر إجراءً…</pre>
+    </div>
+  </section>
+
+  <!-- ============ النشر والإصدار ============ -->
+  <section id="tab-publish" class="hidden">
+    <div class="page-head">
+      <div>
+        <h1>النشر والإصدار</h1>
+        <p class="sub">ما الذي سينشر لو أصدرت الآن — قبل أي <span class="badge">git add -A</span> على فرع يتيم</p>
+      </div>
+      <div class="chips"><span class="chip"><button class="act ghost" id="pub-refresh" style="padding:4px 12px">تحديث الحالة</button></span></div>
+    </div>
+
+    <div class="card">
+      <div id="pub-body"></div>
+    </div>
+
+    <div class="card" style="margin-top:13px">
+      <h2><svg class="i" viewBox="0 0 24 24"><path d="M12 16V7"/><path d="M9 10l3-3 3 3"/><path d="M20 16.5A4.5 4.5 0 0 0 17.5 8h-1.2A6 6 0 1 0 5 14.5"/></svg> إصدار من اللوحة (ينفّذ tools/release.sh)</h2>
+      <div class="hint">يشغّل البوابات أولاً ويرفض الشجرة المتسخة — نفس الأمان اليدوي. النشر على Coolify بعده يدوي (زر Redeploy أو API) لأن التوكن لا يُخزَّن هنا أبداً.</div>
+      <div class="row"><input id="rel-msg" placeholder="Release: وصف مختصر" style="flex:1;min-width:240px"></div>
+      <div class="row"><button class="act" id="rel-run">نفّذ الإصدار للريبو العام</button></div>
+      <pre id="rel-out" style="margin-top:11px"></pre>
+    </div>
+
+    <div class="card" style="margin-top:13px">
+      <h2><svg class="i" viewBox="0 0 24 24"><path d="M13 3L5 14h5l-1 7 8-11h-5z"/></svg> نشر على Coolify (من اللوحة)</h2>
+      <div class="hint">يعمل فقط لو COOLIFY_TOKEN مضبوط في بيئة الحاوية — وإلا ستظهر رسالة بالنشر اليدوي.</div>
+      <div class="row">
+        <button class="act" id="dep-run">انشر التطبيق الآن</button>
+        <button class="act ghost" id="dep-status">حالة آخر نشر</button>
+      </div>
+      <pre id="dep-out" style="margin-top:11px"></pre>
+    </div>
+
+    <div class="card" style="margin-top:13px">
+      <h2><svg class="i" viewBox="0 0 24 24"><path d="M12 16V7"/><path d="M9 10l3-3 3 3"/><path d="M20 16.5A4.5 4.5 0 0 0 17.5 8h-1.2A6 6 0 1 0 5 14.5"/></svg> أوامر الإصدار (يدوية — نسخ ولصق)</h2>
+      <pre id="pub-cmds">git checkout -q --orphan rel-tmp &amp;&amp; git add -A &amp;&amp; \
+git commit -q -m "Release: &lt;وصف&gt;" &amp;&amp; \
+git push -q -f public rel-tmp:main &amp;&amp; git checkout -q main &amp;&amp; git branch -D rel-tmp</pre>
+      <div class="msg bad" style="margin:11px 0 0">⚠️ <span class="badge">git add -A</span> على فرع يتيم بينشر كل ملف غير متجاهَل على ريبو عام. راجع القائمة فوق قبل أي إصدار.</div>
+    </div>
+  </section>
+
+  <!-- ============ المجالات والقوالب ============ -->
+  <section id="tab-niches" class="hidden">
+    <div class="page-head">
+      <div>
+        <h1>المجالات والقوالب</h1>
+        <p class="sub">بروفايل كل مجال: الثيم والخدمات والكوبي — والحفظ يعيد توليد كل صفحاته</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <select id="niche-sel" style="width:auto;min-width:220px"></select>
+        <input id="niche-new" placeholder="اسم مجال جديد (انجليزي صغير)" style="max-width:260px">
+        <button class="act ghost" id="niche-clone">استنساخ كجديد</button>
+      </div>
+      <textarea id="niche-raw" style="min-height:320px"></textarea>
+      <div class="row" style="margin:11px 0 0">
+        <button class="act" id="niche-save">حفظ المجال وأعد التوليد</button>
+      </div>
+      <pre id="niche-out" style="margin-top:11px"></pre>
+    </div>
+  </section>
+
+  <!-- ============ جودة المحتوى ============ -->
+  <section id="tab-quality" class="hidden">
+    <div class="page-head">
+      <div>
+        <h1>جودة المحتوى</h1>
+        <p class="sub">فحوصات المراجعة اليدوية — أصبحت آلية: تسرب الأحياء، التكرار، اللهجة، النواقص</p>
+      </div>
+      <div class="chips"><button class="act" id="q-run">شغّل فحص الجودة</button></div>
+    </div>
+    <div class="grid g-kpi" id="q-kpis"></div>
+    <div class="card">
+      <div class="tbl-wrap">
+        <table id="q-table">
+          <thead><tr><th>الخطورة</th><th>المحل/المجال</th><th>الفحص</th><th>التفاصيل</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ الوسائط والصور ============ -->
+  <section id="tab-media" class="hidden">
+    <div class="page-head">
+      <div>
+        <h1>الوسائط والصور</h1>
+        <p class="sub">المسموح .jpg فقط (البناء يحل هذه الأسماء) — بحد 8MB</p>
+      </div>
+      <div class="chips"><button class="act ghost" id="media-check">فحص الصور الخارجية</button></div>
+    </div>
+    <div class="grid g-3">
+      <div class="card">
+        <h2>صور الهيرو <span class="sub" id="hero-count"></span></h2>
+        <div class="tbl-wrap" style="max-height:320px">
+          <table id="hero-table"><thead><tr><th>الملف</th><th>الحجم</th></tr></thead><tbody></tbody></table>
+        </div>
+      </div>
+      <div class="card">
+        <h2>صور الجاليري <span class="sub" id="stock-count"></span></h2>
+        <div class="tbl-wrap" style="max-height:320px">
+          <table id="stock-table"><thead><tr><th>الملف</th><th>الحجم</th></tr></thead><tbody></tbody></table>
+        </div>
+      </div>
+      <div class="card">
+        <h2>رفع صورة</h2>
+        <div class="field"><label>الوجهة</label>
+          <select id="up-target"><option value="stock">stock (باسم slug_رقم.jpg)</option><option value="hero">hero (باسم المجال أو الـslug)</option></select>
+        </div>
+        <div class="field"><label>الملف</label><input type="file" id="up-file" accept=".jpg,.jpeg"></div>
+        <div class="row"><button class="act" id="up-run">ارفع</button></div>
+        <pre id="up-out" style="margin-top:11px"></pre>
+        <pre id="media-out" style="margin-top:11px"></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ الاستيراد الجماعي ============ -->
+  <section id="tab-import" class="hidden">
+    <div class="page-head">
+      <div>
+        <h1>الاستيراد الجماعي</h1>
+        <p class="sub">ارفع CSV (احفظه من إكسل: UTF-8) أو xlsx — معاينة صارمة أولاً، ثم تأكيد (الكل أو لا شيء)</p>
+      </div>
+      <div class="chips"><a class="chip" href="/api/import/template" download="template.csv" style="text-decoration:none">⬇ قالب CSV</a></div>
+    </div>
+    <div class="card">
+      <div class="field"><label>الملف</label><input type="file" id="imp-file" accept=".csv,.xlsx,.xls"></div>
+      <div class="row"><button class="act ghost" id="imp-preview">1) معاينة وتحقق</button></div>
+      <div class="tbl-wrap" style="margin-top:11px">
+        <table id="imp-table">
+          <thead><tr><th>صف</th><th>slug</th><th>الوضع</th><th>أخطاء</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="row" style="margin-top:11px">
+        <label style="display:flex;align-items:center;gap:7px"><input type="checkbox" id="imp-confirm" style="width:auto"> تأكيد التطبيق (لن يُطبَّق شيء لو فيه صف مرفوض)</label>
+        <button class="act" id="imp-apply">2) طبّق وولّد</button>
+      </div>
+      <pre id="imp-out" style="margin-top:11px"></pre>
+    </div>
+  </section>
+
+  <!-- ============ الإحصاء والمتابعة ============ -->
+  <section id="tab-stats" class="hidden">
+    <div class="page-head">
+      <div>
+        <h1>الإحصاء والمتابعة</h1>
+        <p class="sub">سجل الفحوصات الحية والأحداث والإصدارات — محفوظ محلياً (مهمل من git)</p>
+      </div>
+    </div>
+    <div class="card">
+      <h2>الصفحات السليمة عبر الزمن</h2>
+      <div id="stats-chart"></div>
+    </div>
+    <div class="grid g-3" style="margin-top:13px">
+      <div class="card">
+        <h2>سجل الأحداث</h2>
+        <div class="live-list" id="stats-events" style="max-height:320px"></div>
+      </div>
+      <div class="card">
+        <h2>الإصدارات المسجلة</h2>
+        <div class="live-list" id="stats-releases" style="max-height:320px"></div>
+        <div class="row" style="margin-top:11px">
+          <input id="rel-commit" placeholder="الكمِت (7 حروف)" style="max-width:130px">
+          <input id="rel-note" placeholder="ملاحظة" style="flex:1">
+          <button class="act ghost" id="rel-note-add">سجّل</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ السجل ============ -->
+  <section id="tab-log" class="hidden">
+    <div class="page-head">
+      <div>
+        <h1>السجل</h1>
+        <p class="sub">كل إجراء اتعمل من اللوحة في الجلسة دي</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="log" id="log-box"></div>
+    </div>
+  </section>
+  </main>
+</div>
+
+<script>
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+const LOG=[];
+function log(t){
+  LOG.unshift(new Date().toLocaleTimeString('ar-EG')+' — '+t);
+  $('#log-box').innerHTML=LOG.map(x=>'<div>'+esc(x)+'</div>').join('');
+  $('#nav-badge-log').textContent=LOG.length;
+  $('#bell-dot').textContent=LOG.length;
+}
+async function api(path,opts){
+  const r=await fetch(path,opts?{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(opts)}:undefined);
+  if(r.status===401){window.location='/login';throw new Error('unauthorized');}
+  return r.json();
+}
+function pill(ok,label){return '<span class="pill '+(ok?'ok':'bad')+'">'+esc(label||(ok?'سليم':'مشكلة'))+'</span>';}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function ico(path){return '<svg class="i" viewBox="0 0 24 24">'+path+'</svg>';}
+const ICONS={
+  pages:'<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/>',
+  layers:'<path d="M12 3l8 4.5-8 4.5-8-4.5z"/><path d="M4 12l8 4.5 8-4.5"/>',
+  image:'<rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="8.5" cy="9.5" r="1.6"/><path d="M4 17.5l4.6-4.6 3.4 3.4 3-3L20 17.5"/>',
+  grid:'<rect x="3" y="3" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"/>',
+  check:'<circle cx="12" cy="12" r="8.5"/><path d="M8.5 12.2l2.4 2.4 4.6-4.8"/>',
+  git:'<circle cx="6" cy="6" r="2.6"/><circle cx="6" cy="18" r="2.6"/><circle cx="18" cy="12" r="2.6"/><path d="M8.2 7.2l7.6 3.6M8.2 16.8l7.6-3.6"/>',
+  net:'<path d="M3 12h4l2.5-6 4 12L16 12h5"/>',
+  empty:'<path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v11A2.5 2.5 0 0 1 17.5 20h-11A2.5 2.5 0 0 1 4 17.5z"/><path d="M8 12h8"/>'
+};
+
+/* ---------- tabs ---------- */
+function setTab(name){
+  $$('.side-nav button[data-tab]').forEach(b=>b.classList.toggle('on',b.dataset.tab===name));
+  $$('main section').forEach(s=>s.classList.add('hidden'));
+  const t=$('#tab-'+name); if(t)t.classList.remove('hidden');
+  if(name==='publish')loadPublish();
+  if(name==='pages')loadPages();
+  if(name==='niches')loadNiches();
+  if(name==='quality')runQuality();
+  if(name==='media')loadMedia();
+  if(name==='stats')loadStats();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+$$('.side-nav button[data-tab]').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
+$('#go-publish').onclick=()=>setTab('publish');
+
+/* ---------- overview ---------- */
+function kpi(v,l,h,icon,cls){
+  return '<div class="kpi '+(cls||'')+'"><div class="top"><span class="v">'+v+'</span>'+
+    '<span class="ic">'+ico(icon)+'</span></div><div class="l">'+esc(l)+'</div>'+
+    (h?'<div class="h">'+esc(h)+'</div>':'')+'</div>';
+}
+function tile(v,l,icon,cls){
+  return '<div class="tile '+(cls||'')+'"><span class="ic">'+ico(icon)+'</span>'+
+    '<span class="tx"><span class="v">'+v+'</span><span class="l">'+esc(l)+'</span></span></div>';
+}
+function bstat(v,l){return '<div class="bstat"><div class="v">'+v+'</div><div class="l">'+esc(l)+'</div></div>';}
+function shortSha(s){const m=String(s||'').match(/^[0-9a-f]{7,}/i);return m?m[0].slice(0,7):'—';}
+
+async function loadOverview(){
+  const d=await api('/api/overview');
+  const c=d.counts;
+  $('#kpis').innerHTML=
+    kpi(c.pages,'صفحة منشورة','جاهزة على الدومين',ICONS.pages)+
+    kpi(c.niches,'مجال','ملفات مجالات نشطة',ICONS.layers)+
+    kpi(c.hero_images,'صورة هيرو','بدقة 4K لكل مجال',ICONS.image)+
+    kpi(c.stock_images,'صورة stock','معارض المجالات',ICONS.grid)+
+    kpi(c.default_gallery,'معرض افتراضي',c.default_gallery?'محتاج صور خاصة':'كل الصفحات بصورها',ICONS.image,c.default_gallery?'warn':'ok');
+  $('#gate-badge').innerHTML=pill(d.gate.ok,d.gate.ok?'البوابة: PASS':'البوابة: FAIL');
+  $('#gate-out').textContent=d.gate.output;
+  $('#ov-time').textContent=new Date().toLocaleTimeString('ar-EG');
+  $('#banner-date').textContent=new Date().toLocaleDateString('ar-EG',{day:'2-digit',month:'long',year:'numeric'});
+
+  const g=d.git||{};
+  $('#bstats').innerHTML=
+    bstat(d.gate.ok?'PASS':'FAIL','بوابة المطابقة')+
+    bstat(c.pages+'/'+c.pages,'صفحات متطابقة')+
+    bstat(g.dirty?'تغييرات':'نضيفة','شجرة العمل')+
+    bstat(shortSha(g.public_head),'الريبو العام');
+
+  $('#git-card').innerHTML=
+    '<div class="kv"><span class="k">الفرع</span><span class="v">'+esc(g.branch||'—')+'</span></div>'+
+    '<div class="kv"><span class="k">آخر كومِت محلي</span><span class="v">'+esc(shortSha(g.head))+'</span></div>'+
+    '<div class="kv"><span class="k">كومِت الريبو العام</span><span class="v">'+esc(shortSha(g.public_head))+'</span></div>'+
+    '<div class="kv"><span class="k">حالة الشجرة</span><span class="v">'+(g.dirty?pill(false,'فيه تغييرات غير مُلتزَمة'):pill(true,'نضيفة'))+'</span></div>';
+
+  const nb=$('#niche-table tbody');nb.innerHTML='';
+  const nm={};(d.niches||[]).forEach(n=>nm[n.name]=n);
+  const keys=Object.keys(d.per_niche).sort((a,b)=>d.per_niche[b]-d.per_niche[a]);
+  if(!keys.length){nb.innerHTML='<tr><td colspan="5"><div class="empty">'+ico(ICONS.empty)+'<b>مفيش مجالات</b></div></td></tr>';}
+  keys.forEach(k=>{
+    const n=nm[k]||{};
+    nb.innerHTML+='<tr><td><b>'+esc(k)+'</b>'+(n.niche_name?' <span class="small">· '+esc(n.niche_name)+'</span>':'')+'</td>'+
+      '<td class="mono">'+d.per_niche[k]+'</td><td class="mono">'+(n.services||0)+'</td>'+
+      '<td class="mono">'+(n.usps||0)+'</td><td class="mono">'+(n.faqs||0)+'</td></tr>';
+  });
+  log('تحميل نظرة عامة — البوابة '+(d.gate.ok?'PASS':'FAIL'));
+}
+
+/* ---------- cities ---------- */
+let CITIES=[];
+async function loadCities(){
+  try{
+    const d=await api('/api/cities');CITIES=d.cities||[];
+    const sel=$('#fcity');const cur=sel.value;
+    sel.innerHTML='<option value="">كل المدن</option>'+
+      CITIES.map(c=>'<option value="'+esc(c.id)+'">'+esc(c.id)+' ('+c.pages+')</option>').join('');
+    sel.value=cur;
+  }catch(e){}
+}
+/* ---------- pages ---------- */
+let ROWS=[], LIVE_MAP={};
+function applyLive(){ROWS.forEach(r=>{if(LIVE_MAP[r.slug]!=null)r.status=LIVE_MAP[r.slug];});}
+async function loadPages(){
+  const city=$('#fcity').value;
+  const d=await api('/api/businesses'+(city?'?city='+encodeURIComponent(city):''));ROWS=d.rows||[];
+  applyLive();
+  const sel=$('#fniche');const cur=sel.value;
+  sel.innerHTML='<option value="">كل المجالات</option>'+
+    (d.niches||[]).map(n=>'<option>'+esc(n.name)+'</option>').join('');
+  sel.value=cur;
+  $('#nav-badge-pages').textContent=ROWS.length;
+  drawPages();
+}
+function drawPages(){
+  const q=$('#q').value.trim(), fn=$('#fniche').value, fg=$('#fgallery').value;
+  const tb=$('#pages-table tbody');tb.innerHTML='';
+  const rows=ROWS.filter(r=>(!q||(r.name||'').includes(q)||(r.slug||'').includes(q))
+    &&(!fn||r.niche===fn)
+    &&(!fg||(fg==='default')===!!r.default_gallery));
+  $('#pages-count').textContent=rows.length+' / '+ROWS.length;
+  if(!rows.length){
+    tb.innerHTML='<tr><td colspan="8"><div class="empty">'+ico(ICONS.empty)+
+      '<b>مفيش نتائج مطابقة</b><span>جرّب تغيّر البحث أو الفلاتر</span></div></td></tr>';
+    return;
+  }
+  rows.forEach(r=>{
+    const st=r.status==null?'<span class="pill info">غير مفحوص</span>':
+      (r.status===200?pill(true,'200'):pill(false,String(r.status)));
+    tb.innerHTML+='<tr class="clickable" data-slug="'+esc(r.slug)+'">'+
+      '<td><b>'+esc(r.name)+'</b><div class="small mono">'+esc(r.slug)+'</div></td>'+
+      '<td>'+esc(r.niche_name||r.niche)+'</td><td>'+esc(r.district||'—')+'</td>'+
+      '<td class="mono">'+(r.rating??'—')+'</td><td class="mono">'+(r.review_count??'—')+'</td>'+
+      '<td class="mono">'+esc(r.phone_display||'—')+'</td>'+
+      '<td>'+(r.own_photos?('<span class="badge">'+r.own_photos+'</span>'):'<span class="small">افتراضي</span>')+'</td>'+
+      '<td>'+st+'</td></tr>';
+  });
+  $$('#pages-table tbody tr[data-slug]').forEach(tr=>tr.onclick=()=>openEditor(tr.dataset.slug));
+}
+['#q','#fniche','#fgallery'].forEach(s=>$(s).oninput=drawPages);
+$('#fcity').onchange=loadPages;
+$('#refresh-pages').onclick=()=>{loadPages();log('تحديث قائمة الصفحات');};
+$('#topsearch').oninput=e=>{
+  $('#q').value=e.target.value;
+  if($('#tab-pages').classList.contains('hidden'))setTab('pages');
+  drawPages();
+};
+
+/* ---------- editor ---------- */
+let CUR=null;
+async function openEditor(slug){
+  const d=await api('/api/business/'+slug);
+  if(!d.ok){log('فتح سجل فشل: '+d.output);return;}
+  CUR=d.record;
+  $('#editor').classList.remove('hidden');
+  $('#ed-title').textContent='تعديل: '+(d.record.name||slug);
+  $('#ed-msg').innerHTML='';
+  const f=$('#ed-form');f.innerHTML='';
+  d.form_fields.forEach(k=>{
+    const v=d.record[k];
+    let inp;
+    if(k==='niche'){
+      inp='<select data-k="niche">'+d.available_niches.map(n=>'<option '+(n===v?'selected':'')+'>'+esc(n)+'</option>').join('')+'</select>';
+    }else{
+      inp='<input data-k="'+k+'" value="'+esc(v==null?'':v)+'">';
+    }
+    f.innerHTML+='<div class="field"><label>'+k+'</label>'+inp+'</div>';
+  });
+  $('#ed-raw').value=d.raw;
+  $('#ed-out').textContent='';
+  $('#editor').scrollIntoView({behavior:'smooth',block:'start'});
+  log('فتح سجل '+slug);
+}
+$('#ed-close').onclick=()=>$('#editor').classList.add('hidden');
+function collect(){
+  const p={};$$('#ed-form [data-k]').forEach(i=>p[i.dataset.k]=i.value.trim());
+  return p;
+}
+$('#ed-save').onclick=async()=>{
+  const p=collect();const d=await api('/api/business',{slug:CUR.slug,patch:p});
+  $('#ed-msg').innerHTML='<div class="msg '+(d.ok?'ok':'bad')+'">'+esc(d.output||'')+(d.check?'\n'+esc(d.check):'')+'</div>';
+  $('#ed-out').textContent=(d.output||'')+(d.check?'\n\n'+d.check:'');
+  log('تعديل '+CUR.slug+' — '+(d.ok?'نجح':'فشل'));
+  loadPages();loadOverview();
+};
+$('#ed-save-raw').onclick=async()=>{
+  const d=await api('/api/business',{slug:CUR.slug,patch:{_replace:$('#ed-raw').value}});
+  $('#ed-out').textContent=(d.output||'')+(d.check?'\n\n'+d.check:'');
+  $('#ed-msg').innerHTML='<div class="msg '+(d.ok?'ok':'bad')+'">'+(d.ok?'تم الحفظ وإعادة التوليد':'فشل: '+esc(d.output))+'</div>';
+  log('حفظ JSON لـ '+CUR.slug+' — '+(d.ok?'نجح':'فشل'));
+  loadPages();loadOverview();
+};
+$('#ed-recheck').onclick=async()=>{const d=await api('/api/run',{cmd:'check'});$('#ed-out').textContent=d.output;log('فحص مطابقة');};
+$('#ed-preview').onclick=()=>{if(CUR)window.open('/api/preview/'+encodeURIComponent(CUR.slug),'_blank');};
+
+/* ---------- new business ---------- */
+$('#new-add').onclick=async()=>{
+  let rec;try{rec=JSON.parse($('#new-raw').value);}catch(e){$('#new-out').textContent='JSON غير صالح: '+e;return;}
+  const d=await api('/api/business/new',{record:rec});
+  $('#new-out').textContent=(d.output||'')+(d.check?'\n\n'+d.check:'');
+  log('إضافة '+(rec.slug||'?')+' — '+(d.ok?'نجح':'فشل'));
+  loadPages();loadOverview();
+};
+
+/* ---------- checks (actions live in the sidebar too) ---------- */
+$$('[data-cmd]').forEach(b=>b.onclick=async()=>{
+  // sidebar quick actions must reveal the output: jump to the checks tab first
+  setTab('checks');
+  const btns=$$('[data-cmd]');
+  btns.forEach(x=>x.disabled=true);
+  $('#run-out').textContent='…يجري التنفيذ: '+b.dataset.cmd;
+  const d=await api('/api/run',{cmd:b.dataset.cmd});
+  $('#run-out').textContent=d.output||'(مفيش مخرجات)';
+  btns.forEach(x=>x.disabled=false);
+  log('إجراء '+b.dataset.cmd+' — '+(d.ok?'ok':'فشل'));
+  loadOverview();
+});
+function renderLive(d){
+  LIVE_MAP={};(d.rows||[]).forEach(r=>LIVE_MAP[r.slug]=r.status);
+  applyLive();drawPages();
+  $('#live-sum').textContent=d.up+' / '+d.total+' تستجيب 200';
+  $('#live-sum').className='pill '+(d.up===d.total?'ok':'bad');
+  $('#live-time').textContent=d.checked_at||'';
+  $('#live-rows').innerHTML=(d.rows||[]).map(r=>'<div class="lr"><span class="nm">'+esc(r.file)+'</span>'+
+    (r.status===200?pill(true,'200'):pill(false,String(r.status)))+'</div>').join('')
+    || '<div class="lr"><span class="nm">لم يُفحص بعد</span></div>';
+}
+$('#live-btn').onclick=async()=>{
+  const btn=$('#live-btn');btn.disabled=true;btn.textContent='…يفحص';
+  const city=$('#fcity').value;
+  const d=await api('/api/live/refresh'+(city?'?city='+encodeURIComponent(city):''),{});
+  renderLive(d);
+  btn.disabled=false;btn.textContent='افحص الصفحات الآن';
+  log('فحص حياة — '+d.up+'/'+d.total);
+  loadPages();
+};
+
+/* ---------- publish ---------- */
+async function loadPublish(){
+  const d=await api('/api/publish');
+  let h='<h2>'+ico(ICONS.git)+' ما الذي سيُنشر لو أصدرت الآن؟</h2>'+
+    '<div class="row">'+pill(!d.dirty,d.dirty?'فيه تغييرات غير مُلتزَمة':'شجرة العمل نضيفة')+
+    '<span class="small">الفرع <span class="badge">'+esc(d.branch)+'</span></span>'+
+    '<span class="small">ملفات متتبَّعة <span class="badge">'+d.tracked_files+'</span></span></div>';
+  h+='<div class="sec-title">آخر كومِتات (محلي)</div><pre>'+esc(d.head)+'</pre>';
+  h+='<div class="sec-title">كومِت الريبو العام</div><pre>'+esc(d.public_head)+'</pre>';
+  if(d.status)h+='<div class="sec-title">تغييرات غير مُلتزَمة</div><pre>'+esc(d.status)+'</pre>';
+  else h+='<div class="msg ok">مفيش تغييرات معلَّقة — الإصدار هيكون مطابقًا للكومِت الحالي.</div>';
+  if(d.ignored_risk&&d.ignored_risk.length){
+    h+='<div class="sec-title">ملفات حساسة مستثناة (محمية)</div><pre>'+esc(d.ignored_risk.join('\n'))+'</pre>';
+  }
+  $('#pub-body').innerHTML=h;log('تحديث حالة النشر');
+}
+$('#pub-refresh').onclick=loadPublish;
+
+/* ---------- niches ---------- */
+async function loadNiches(){
+  const d=await api('/api/niches');
+  const sel=$('#niche-sel');
+  sel.innerHTML=(d.niches||[]).map(n=>'<option>'+esc(n.name)+'</option>').join('');
+  if(sel.value)loadNiche(sel.value);
+  else if(sel.options.length){sel.selectedIndex=0;loadNiche(sel.value);}
+}
+async function loadNiche(name){
+  if(!name)return;
+  const d=await api('/api/niche/'+encodeURIComponent(name));
+  if(d.ok)$('#niche-raw').value=d.raw;
+  $('#niche-out').textContent='';
+}
+$('#niche-sel').onchange=e=>loadNiche(e.target.value);
+$('#niche-clone').onclick=()=>{
+  const name=$('#niche-new').value.trim();
+  if(!/^[a-z0-9_]+$/.test(name)){$('#niche-out').textContent='اسم غير صالح: انجليزي صغير وأرقام و_ فقط';return;}
+  window._cloneName=name;
+  $('#niche-out').textContent='سيُحفظ البروفايل الحالي كمجال جديد: '+name+' — راجع الـJSON ثم اضغط حفظ.';
+  log('تجهيز استنساخ مجال '+name);
+};
+$('#niche-save').onclick=async()=>{
+  const name=window._cloneName||$('#niche-sel').value;
+  const d=await api('/api/niche',{name:name,profile:$('#niche-raw').value});
+  $('#niche-out').textContent=(d.output||'')+(d.check?'\n\n'+d.check:'');
+  log('حفظ مجال '+name+' — '+(d.ok?'نجح':'فشل'));
+  window._cloneName=null;loadNiches();loadOverview();
+};
+
+/* ---------- quality ---------- */
+async function runQuality(){
+  $('#q-kpis').innerHTML='';$('#q-table tbody').innerHTML='';
+  const d=await api('/api/quality');
+  $('#nav-badge-quality').textContent=d.total;
+  $('#q-kpis').innerHTML=
+    kpi(d.records,'سجل مفحوص','',ICONS.grid)+
+    kpi(d.total,'ملاحظة','',ICONS.empty,d.total?'warn':'ok')+
+    kpi(d.high,'عالية الخطورة','',ICONS.check,d.high?'bad':'ok');
+  const tb=$('#q-table tbody');
+  if(!d.issues.length){tb.innerHTML='<tr><td colspan="4"><div class="empty">'+ico(ICONS.check)+'<b>نظيف — لا ملاحظات</b></div></td></tr>';return;}
+  d.issues.forEach(i=>{
+    tb.innerHTML+='<tr><td>'+(i.severity==='high'?pill(false,'عالية'):pill(true,'متوسطة'))+'</td>'+
+      '<td class="mono">'+esc(i.slug)+'</td><td>'+esc(i.check)+'</td><td>'+esc(i.msg)+'</td></tr>';
+  });
+  log('فحص جودة — '+d.total+' ملاحظة');
+}
+$('#q-run').onclick=runQuality;
+
+/* ---------- media ---------- */
+async function loadMedia(){
+  const d=await api('/api/media');
+  $('#hero-count').textContent=d.hero_count+' ملف';
+  $('#stock-count').textContent=d.stock_count+' ملف';
+  $('#hero-table tbody').innerHTML=d.hero.map(f=>'<tr><td class="mono">'+esc(f.name)+'</td><td class="mono">'+f.kb+'KB</td></tr>').join('');
+  $('#stock-table tbody').innerHTML=d.stock.map(f=>'<tr><td class="mono">'+esc(f.name)+'</td><td class="mono">'+f.kb+'KB</td></tr>').join('');
+}
+function readFileB64(file){
+  return new Promise((res,rej)=>{
+    const r=new FileReader();
+    r.onload=()=>res(String(r.result).split(',')[1]);
+    r.onerror=rej;r.readAsDataURL(file);
+  });
+}
+$('#up-run').onclick=async()=>{
+  const f=$('#up-file').files[0];
+  if(!f){$('#up-out').textContent='اختر ملفاً أولاً';return;}
+  const b64=await readFileB64(f);
+  const d=await api('/api/media',{target:$('#up-target').value,filename:f.name,base64:b64});
+  $('#up-out').textContent=d.output||'(مفيش مخرجات)';
+  log('رفع صورة '+f.name+' — '+(d.ok?'نجح':'فشل'));
+  loadMedia();
+};
+$('#media-check').onclick=async()=>{
+  const d=await api('/api/run',{cmd:'media-check'});
+  $('#media-out').textContent=d.output;log('فحص صور خارجية');
+};
+
+/* ---------- import ---------- */
+let IMP={name:'',b64:''};
+$('#imp-preview').onclick=async()=>{
+  const f=$('#imp-file').files[0];
+  if(!f){$('#imp-out').textContent='اختر ملفاً أولاً';return;}
+  IMP.name=f.name;IMP.b64=await readFileB64(f);
+  const d=await api('/api/import',{filename:IMP.name,base64:IMP.b64,confirm:false});
+  if(!d.preview){$('#imp-out').textContent=d.output;return;}
+  const tb=$('#imp-table tbody');tb.innerHTML='';
+  (d.valid||[]).forEach(v=>{tb.innerHTML+='<tr><td class="mono">'+v.row+'</td><td class="mono">'+esc(v.record.slug)+'</td><td>'+pill(true,v.mode)+'</td><td></td></tr>';});
+  (d.invalid||[]).forEach(v=>{tb.innerHTML+='<tr><td class="mono">'+v.row+'</td><td class="mono">'+esc(v.slug||'—')+'</td><td>'+pill(false,'مرفوض')+'</td><td>'+esc(v.errors.join('؛ '))+'</td></tr>';});
+  $('#imp-out').textContent=d.summary;
+  log('معاينة استيراد — '+d.summary);
+};
+$('#imp-apply').onclick=async()=>{
+  if(!IMP.b64){$('#imp-out').textContent='اعمل معاينة أولاً';return;}
+  if(!$('#imp-confirm').checked){$('#imp-out').textContent='علّم تأكيد التطبيق أولاً';return;}
+  const d=await api('/api/import',{filename:IMP.name,base64:IMP.b64,confirm:true});
+  $('#imp-out').textContent=(d.output||'')+(d.check?'\n\n'+d.check:'');
+  log('استيراد جماعي — '+(d.ok?'نجح':'فشل'));
+  loadPages();loadOverview();
+};
+
+/* ---------- stats ---------- */
+async function loadStats(){
+  const d=await api('/api/stats');
+  const h=d.live_history||[];
+  const W=560,H=150;
+  let svg='<svg viewBox="0 0 '+W+' '+H+'" style="width:100%;background:rgba(8,12,22,.4);border:1px solid var(--border);border-radius:11px" role="img" aria-label="سجل الفحوصات">';
+  if(!h.length){svg+='<text x="50%" y="50%" fill="#5d6780" font-size="12" text-anchor="middle">لا فحوصات مسجلة بعد — شغّل فحص الحياة</text>';}
+  const n=Math.min(h.length,40), slice=h.slice(-n), bw=W/40;
+  slice.forEach((p,i)=>{
+    const frac=p.total?p.up/p.total:0, bh=Math.max(4,Math.round(frac*(H-30)));
+    const x=W-(n-i)*bw+2;
+    svg+='<rect x="'+x+'" y="'+(H-20-bh)+'" width="'+(bw-4)+'" height="'+bh+'" rx="2" fill="'+(frac===1?'#3ed598':frac>=0.8?'#f2b84b':'#f27272')+'"><title>'+esc(p.at)+' — '+p.up+'/'+p.total+'</title></rect>';
+  });
+  svg+='</svg>';
+  $('#stats-chart').innerHTML=svg;
+  $('#stats-events').innerHTML=(d.events||[]).map(e=>'<div class="lr"><span class="nm">'+esc(e.at+' · '+e.kind+' · '+e.label)+'</span>'+(e.ok?pill(true,'ok'):pill(false,'fail'))+'</div>').join('')||'<div class="lr"><span class="nm">لا أحداث بعد</span></div>';
+  $('#stats-releases').innerHTML=(d.releases||[]).map(r=>'<div class="lr"><span class="nm">'+esc(r.at+' · '+r.commit+' · '+r.note)+'</span></div>').join('')||'<div class="lr"><span class="nm">لا إصدارات مسجلة</span></div>';
+}
+$('#rel-note-add').onclick=async()=>{
+  const d=await api('/api/stats/release',{commit:$('#rel-commit').value.trim(),note:$('#rel-note').value.trim()});
+  if(d.ok){$('#rel-commit').value='';$('#rel-note').value='';loadStats();log('تسجيل إصدار');}
+};
+
+$('#logout').onclick=async()=>{await api('/api/logout',{});window.location='/login';};
+
+/* ---------- deploy from panel ---------- */
+$('#dep-run').onclick=async()=>{
+  if(!confirm('نشر تطبيق صفحات الهبوط على Coolify الآن؟'))return;
+  const d=await api('/api/run',{cmd:'deploy'});
+  $('#dep-out').textContent=d.output||'(مفيش مخرجات)';
+  log('نشر من اللوحة — '+(d.ok?'نجح':'فشل'));
+};
+$('#dep-status').onclick=async()=>{
+  const d=await api('/api/run',{cmd:'deploy-status'});
+  $('#dep-out').textContent=d.output||'(مفيش مخرجات)';
+  log('حالة النشر — '+d.output);
+};
+
+/* ---------- release from panel ---------- */
+$('#rel-run').onclick=async()=>{
+  const msg=$('#rel-msg').value.trim();
+  if(!msg){$('#rel-out').textContent='اكتب رسالة الإصدار أولاً';return;}
+  if(!confirm('سيُنفَّذ release.sh ويدفع للريبو العام. متابعة؟'))return;
+  const btn=$('#rel-run');btn.disabled=true;btn.textContent='…يصدر';
+  const d=await api('/api/run',{cmd:'release',message:msg});
+  $('#rel-out').textContent=d.output||'(مفيش مخرجات)';
+  btn.disabled=false;btn.textContent='نفّذ الإصدار للريبو العام';
+  log('إصدار من اللوحة — '+(d.ok?'نجح':'فشل'));
+  loadOverview();
+};
+
+/* ---------- init ---------- */
+$('#who-host').textContent=location.host||'127.0.0.1';
+(async()=>{
+  await loadOverview();await loadCities();await loadPages();
+  try{
+    const d=await api('/api/live');
+    if(d.ok) renderLive(d);   // merges statuses into ROWS + paints the live card
+  }catch(e){}
+})();
+</script>
+</body>
+</html>

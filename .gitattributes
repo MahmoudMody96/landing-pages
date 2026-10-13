@@ -1,0 +1,20 @@
+# Normalize text files to LF on commit (prevents whole-file CRLF diffs).
+# Binary assets are excluded so git never touches them.
+* text=auto
+*.sh text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.conf text eol=lf
+*.py text eol=lf
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.xlsx binary

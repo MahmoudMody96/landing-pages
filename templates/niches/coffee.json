@@ -1,0 +1,113 @@
+{
+ "name": "coffee",
+ "hero": "/hero/coffee.jpg",
+ "gallery_prefix": "coffee",
+ "mark": "☕",
+ "jsonld_type": "CafeOrCoffeeShop",
+ "city_ar": "الرياض",
+ "theme_css": ":root{\n  --primary:#7c4a21;\n  --primary-dark:#43260f;\n  --accent:#d4a574;\n  --bg:#ffffff;\n  --card:#f8f9fb;\n  --text:#15181e;\n  --muted:#6b7280;\n  --border:#e5e7eb;\n  --wa:#25D366;\n  --ink:#0f1216;\n}",
+ "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 48px;background:#111;color:#fff;overflow:hidden}",
+ "cta_bg_css": ".cta-section::before{content:\"\";position:absolute;inset:0;background:url('https://pages.aidy.site/hero/coffee.jpg') center/cover;opacity:.07}",
+ "page_title": "{name} — {niche_name} في {district}، {city_ar} | تقييم {rating}★",
+ "og_title": "{name} — {niche_name} في {district}، {city_ar}",
+ "meta_desc": "{name} — {niche_name} في {district} ب{city_ar}. تقييم {rating}★ من {reviews_fmt} تقييم على Google. العنوان، المواعيد، والتقييمات الحقيقية.",
+ "og_desc": "{name} — {niche_name} في {district} ب{city_ar}. تقييم {rating}★ من {reviews_fmt} تقييم على Google. العنوان، المواعيد، والتقييمات الحقيقية.",
+ "og_image": "{hero_url}",
+ "h1": "{name} — قهوة مختصة في {district}",
+ "hero_tag": "في {district} ب{city_ar} — {niche_name} بتقييم {rating}★ من {reviews_fmt} تقييم حقيقي على Google.",
+ "about_sub": "{niche_name} في {city_ar} — والأرقام تتحدث عن نفسها",
+ "about_heading": "عن {name}",
+ "about_html": "<p><strong>{name}</strong> من الأماكن المعروفة في مجال <strong>{niche_name}</strong> في {city_ar} — والدليل على ذلك <strong>{reviews_fmt} تقييم</strong> على Google Maps بمتوسط <strong>{rating} من 5</strong>. هذا الرقم ليس من حملة إعلانية، بل من زوّار حقيقيين قيّموا المكان بصراحة.</p><p>يتحدث العملاء في تقييماتهم عن أمور ملموسة: جودة العمل، والنظافة، والتعامل الراقي، والاهتمام بالتفاصيل الصغيرة التي تصنع الفرق. جمعنا لك في هذه الصفحة كل ما تحتاجه قبل الزيارة: الصور الحقيقية، والعنوان التفصيلي، ومواعيد العمل الكاملة، والتقييمات بنصّها دون أي تعديل.</p>",
+ "cta_heading": "ودّك تجرّب قهوتنا؟ حيّاك الله",
+ "cta_text": "تواصل مع {name} عبر الواتساب أو الاتصال — وسيردّون عليك مباشرة.",
+ "wa_message": "مرحباً {name}، رأيت صفحتكم على الإنترنت وأرغب بالاستفسار 👋",
+ "nav_services": "اللي نوفّره",
+ "services_heading": "اللي نوفّره",
+ "services_lead": "قهوة ومشروبات وحلويات بأجواء مريحة",
+ "years": 5,
+ "usps": [
+  {
+   "icon": "⭐",
+   "title": "تقييم {rating} على Google",
+   "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+  },
+  {
+   "icon": "📍",
+   "title": "موقع سهل الوصول",
+   "text": "في {district} — {city_ar}"
+  },
+  {
+   "icon": "📞",
+   "title": "تواصل مباشر",
+   "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+  },
+  {
+   "icon": "🧼",
+   "title": "نظافة وترتيب",
+   "text": "اللي بيميز المكان في كلام العملاء"
+  }
+ ],
+ "services": [
+  {
+   "title": "قهوة مختصة",
+   "text": "حبوب مختارة بعناية ومحمصة بإتقان، بتتحضر على إيد باريستا فاهم في شغله.",
+   "tag": "قهوة"
+  },
+  {
+   "title": "مشروبات باردة وساخنة",
+   "text": "تشكيلة واسعة من المشروبات تناسب كل الأذواق وكل الأوقات.",
+   "tag": "مشروبات"
+  },
+  {
+   "title": "حلويات ومعجنات",
+   "text": "حلويات ومعجنات طازجة بتتماشى مع القهوة وتكمل التجربة.",
+   "tag": "حلويات"
+  },
+  {
+   "title": "أجواء المكان",
+   "text": "مساحة مريحة مناسبة للشغل أو اللقاءات، بديكور راقٍ وخدمة محترمة — اسألهم عن أفضل وقت لو تبغى مكان هادئ.",
+   "tag": "أجواء"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "ما الذي يميّز {name}؟",
+   "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم {name} من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+  },
+  {
+   "q": "كيف أحجز أو أستفسر؟",
+   "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+  },
+  {
+   "q": "أين الموقع بالضبط؟",
+   "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+  },
+  {
+   "q": "ما مواعيد العمل؟",
+   "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+  },
+  {
+   "q": "ينفع للشغل والدراسة؟",
+   "a": "الأجواء مريحة والمساحة مناسبة — راسلهم واسأل عن أفضل وقت لو تبغى مكاناً هادئاً."
+  }
+ ],
+ "reviews": [],
+ "photos": [
+  {
+   "url": "{hero_url}",
+   "alt": ""
+  },
+  {
+   "url": "https://pages.aidy.site/stock/coffee-0.jpg",
+   "alt": ""
+  },
+  {
+   "url": "https://pages.aidy.site/stock/coffee-1.jpg",
+   "alt": ""
+  },
+  {
+   "url": "https://pages.aidy.site/stock/coffee-2.jpg",
+   "alt": ""
+  }
+ ]
+}

@@ -1,0 +1,3123 @@
+[
+ {
+  "slug": "almultaka-ladies-center-fitness",
+  "file": "almultaka-ladies-center-fitness.html",
+  "name": "Almultaka Ladies Center Fitness",
+  "niche": "gym",
+  "url": "https://riyadh.aidy.site/sa/riyadh/almultaka-ladies-center-fitness.html",
+  "phone_intl": "+966500018879",
+  "rating": 4.7,
+  "review_count": 89,
+  "address": "Prince Turki Bin Abdulaziz Al Awal Rd, Hittin, Riyadh 13513, Saudi Arabia",
+  "district": "Hittin",
+  "niche_name": "صالة رياضية",
+  "hero_url": "https://pages.aidy.site/hero/gym.jpg",
+  "hours": {
+   "السبت": "10 AM–9 PM",
+   "الأحد": "8 AM–9 PM",
+   "الاثنين": "8 AM–9 PM",
+   "الثلاثاء": "8 AM–9 PM",
+   "الأربعاء": "8 AM–9 PM",
+   "الخميس": "8 AM–9 PM",
+   "الجمعة": "Closed"
+  },
+  "reviews": [
+   {
+    "author": "Alhanouf MM",
+    "stars": 5,
+    "text": "I’ve been working with my gorgeous Pilates coach Dina Jawhar 💗 for some time now, and I couldn’t be more grateful to have found such a fantastic instructor! Every session is truly a highlight of my week. Not only is she always punctual, but …"
+   },
+   {
+    "author": "Juman AlBraikan",
+    "stars": 5,
+    "text": "I had the pleasure of training with Coach Ohoud last year when I joined the gym, and I can’t recommend her enough! She’s truly a fantastic coach—knowledgeable, motivating, and always positive. Ohoud tailored every session to fit my fitness …"
+   },
+   {
+    "author": "Samah Abdullah",
+    "stars": 5,
+    "text": "As a regular customer of this fantastic Gym, I must say, it has been nothing short of exceptional! From the moment you walked in, you will be welcomed by the radiant smile of (Afra), whose warmth and positivity set the tone for your entire …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/gym.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/almultaka-ladies-center-fitness_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/almultaka-ladies-center-fitness_2.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "ExerciseGym",
+   "sameAs": [
+    "https://www.google.com/maps/place/Almultaka+Ladies+Center+Fitness/data=!4m7!3m6!1s0x3e2ee31da2898e7b:0x88d6095479625353!8m2!3d24.7508638!4d46.6125995!16s%2Fg%2F11h2c3m8c5!19sChIJe46Joh3jLj4RU1NieVQJ1og?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Prince Turki Bin Abdulaziz Al Awal Rd",
+    "postalCode": "13513"
+   }
+  },
+  "phone_display": "+966 50 001 8879",
+  "about_sub": "صالة رياضية في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   }
+  ]
+ },
+ {
+  "slug": "calibrated-coffee-roasters",
+  "file": "calibrated-coffee-roasters.html",
+  "name": "Calibrated Coffee Roasters",
+  "niche": "coffee",
+  "url": "https://riyadh.aidy.site/sa/riyadh/calibrated-coffee-roasters.html",
+  "phone_intl": "+966535966505",
+  "rating": 4.5,
+  "review_count": 1363,
+  "address": "Rd, Northern Ring Br Rd, Al Muruj, Riyadh 12283, Saudi Arabia",
+  "district": "Al Muruj",
+  "niche_name": "مقهى",
+  "years": 12,
+  "hero_url": "https://pages.aidy.site/hero/calibrated-coffee-roasters.jpg",
+  "hours": {
+   "السبت": "6 AM–11:30 PM",
+   "الأحد": "6 AM–11:30 PM",
+   "الاثنين": "6 AM–11:30 PM",
+   "الثلاثاء": "6 AM–11:30 PM",
+   "الأربعاء": "6 AM–1 AM",
+   "الخميس": "6 AM–1 AM",
+   "الجمعة": "6 AM–1 AM"
+  },
+  "reviews": [
+   {
+    "author": "Ahmed Maki",
+    "stars": 5,
+    "text": "I had my morning coffee there 5 days in a raw during a 5 day trip\nThe Philippino barista there is amazing\nTry the iced v60 (Ethiopian beans) prepared by him and thank me later"
+   },
+   {
+    "author": "B. A.",
+    "stars": 3,
+    "text": "I like their flat white, they have lactose free milk, no decaf.\nI feel they would use better chocolate options\nI come back for flat white"
+   },
+   {
+    "author": "Ahmed Bahaydar",
+    "stars": 5,
+    "text": "Very nice place, impressed with the order preparation time it took exactly 3min, Also very friendly service, Thanks a lot."
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/calibrated-coffee-roasters.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/calibrated-coffee-roasters_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/calibrated-coffee-roasters_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/calibrated-coffee-roasters_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/calibrated-coffee-roasters_4.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/calibrated-coffee-roasters_5.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/calibrated-coffee-roasters_6.jpg",
+    "alt": ""
+   }
+  ],
+  "cta_bg_css": ".cta-section::before{content:\"\";position:absolute;inset:0;background:url('https://pages.aidy.site/hero/calibrated-coffee-roasters.jpg') center/cover;opacity:.07}",
+  "jsonld": {
+   "type": "CafeOrCoffeeShop",
+   "sameAs": [
+    "https://www.google.com/maps/place/Calibrated+Coffee+Roasters/data=!4m7!3m6!1s0x3e2ee31941346a29:0x883a39f104b13b2!8m2!3d24.7632824!4d46.6541047!16s%2Fg%2F11tgd7t6xr!19sChIJKWo0QRnjLj4RshNLEJ-jgwg?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Rd",
+    "postalCode": "12283"
+   }
+  },
+  "services_lead": "قهوة وفطار وأجمال تخلّي اليوم أحلى",
+  "phone_display": "+966 53 596 6505",
+  "about_sub": "مقهى في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "{district} — {city_ar}"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   }
+  ],
+  "services": [
+   {
+    "title": "قهوة ومشروبات",
+    "text": "قهوة بمستويات متنوعة ومشروبات تُحضَّر باهتمام بالتفصيل.",
+    "tag": "قهوة"
+   },
+   {
+    "title": "فطار وحلويات",
+    "text": "خيارات فطار طازجة وحلويات بتنوّع يرضي كل الأذواق.",
+    "tag": "فطار"
+   },
+   {
+    "title": "أجواء المكان",
+    "text": "مساحة واسعة ومريحة مناسبة للقاءات والشغل والاسترخاء.",
+    "tag": "أجواء"
+   },
+   {
+    "title": "خدمة سريعة",
+    "text": "فريق سريع ومحترم بيخلي تجربتك مريحة من أول لحظة.",
+    "tag": "خدمة"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ما الذي يميّز {name}؟",
+    "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم {name} من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+   },
+   {
+    "q": "كيف أحجز أو أستفسر؟",
+    "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+   },
+   {
+    "q": "أين الموقع بالضبط؟",
+    "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+   },
+   {
+    "q": "ما مواعيد العمل؟",
+    "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+   }
+  ]
+ },
+ {
+  "slug": "car-repairs",
+  "file": "car-repairs.html",
+  "name": "Car Repairs",
+  "niche": "auto_repair",
+  "url": "https://riyadh.aidy.site/sa/riyadh/car-repairs.html",
+  "phone_intl": "+966578338023",
+  "rating": 4.6,
+  "review_count": 38,
+  "address": "PM24+66R، Unnamed Road, Riyadh 12326, Saudi Arabia",
+  "district": "Unnamed Road",
+  "niche_name": "ورشة صيانة سيارات",
+  "hero_url": "https://pages.aidy.site/hero/auto_repair.jpg",
+  "hours": {
+   "السبت": "8 AM–10 PM",
+   "الأحد": "8 AM–10 PM",
+   "الاثنين": "8 AM–10 PM",
+   "الثلاثاء": "8 AM–10 PM",
+   "الأربعاء": "8 AM–10 PM",
+   "الخميس": "8 AM–10 PM",
+   "الجمعة": "Open 24 hours"
+  },
+  "reviews": [
+   {
+    "author": "Lastiko Wibisono",
+    "stars": 1,
+    "text": "visited this place to fix my hazard light button. They fixed the button but my LCD touch screen become broken, and the mechanic dont want to take responsibility."
+   },
+   {
+    "author": "Ranjil P Ramath",
+    "stars": 4,
+    "text": "Good Service by Mr. Kamarudhin"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/auto_repair.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/car-repairs_1.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "AutoRepair",
+   "sameAs": [
+    "https://www.google.com/maps/place/Car+Repairs/data=!4m7!3m6!1s0x3e2f1dd6520d5e13:0xbf16cfeb1a8f5cb2!8m2!3d24.7006157!4d46.6555047!16s%2Fg%2F11g2xqtv5h!19sChIJE14NUtYdLz4RslyPGuvPFr8?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "PM24+66R، Unnamed Road",
+    "postalCode": "12326"
+   }
+  },
+  "phone_display": "+966 57 833 8023",
+  "about_sub": "ورشة صيانة سيارات في {district} — والأرقام تتحدث عن نفسها"
+ },
+ {
+  "slug": "carve-coffee-bar",
+  "file": "carve-coffee-bar.html",
+  "name": "CARVE COFFEE BAR",
+  "niche": "coffee",
+  "url": "https://riyadh.aidy.site/sa/riyadh/carve-coffee-bar.html",
+  "phone_intl": "+966505745780",
+  "rating": 4.5,
+  "review_count": 1753,
+  "address": "Al Urubah Rd, تقاطع، Riyadh 12251, Saudi Arabia",
+  "district": "الرياض",
+  "niche_name": "كوفي شوب",
+  "hero_url": "https://pages.aidy.site/hero/coffee.jpg",
+  "hours": {
+   "السبت": "6 AM–12 AM",
+   "الأحد": "6 AM–12 AM",
+   "الاثنين": "6 AM–12 AM",
+   "الثلاثاء": "6 AM–12 AM",
+   "الأربعاء": "6 AM–12 AM",
+   "الخميس": "6 AM–1 AM",
+   "الجمعة": "6 AM–1 AM"
+  },
+  "reviews": [
+   {
+    "author": "Saqib Khan",
+    "stars": 5,
+    "text": "Heard about this place from a recommendation so thought I'd check it out and see if it was just hype or actually worth it and it's definitely the latter. …"
+   },
+   {
+    "author": "Arwin Ilatan",
+    "stars": 5,
+    "text": "My reaction\n\n(⁠๑⁠♡⁠⌓⁠♡⁠๑⁠) …"
+   },
+   {
+    "author": "Une Dolcezza",
+    "stars": 5,
+    "text": "One of my favorite coffee shops in Riyadh . My suggestions from their menu:\n- banana pudding 🍌\n- hot chocolate ☕️ …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/coffee.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/carve-coffee-bar_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/carve-coffee-bar_2.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "CafeOrCoffeeShop",
+   "sameAs": [
+    "https://www.google.com/maps/place/CARVE+COFFEE+BAR/data=!4m7!3m6!1s0x3e2f03f29ecc644d:0x7dd172c26784c870!8m2!3d24.7143718!4d46.6767119!16s%2Fg%2F11kj234xlm!19sChIJTWTMnvIDLz4RcMiEZ8Jy0X0?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Al Urubah Rd",
+    "postalCode": "12251"
+   }
+  },
+  "phone_display": "+966 50 574 5780",
+  "usps": [
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   }
+  ]
+ },
+ {
+  "slug": "ed-salon-hair-nail-صالون-اي-دي",
+  "file": "ed-salon-hair-nail-صالون-اي-دي.html",
+  "name": "ED salon Hair & Nail.- صالون اي دي",
+  "niche": "beauty_salon",
+  "url": "https://riyadh.aidy.site/sa/riyadh/ed-salon-hair-nail-صالون-اي-دي.html",
+  "phone_intl": "+966535505223",
+  "rating": 4.5,
+  "review_count": 1346,
+  "address": "Alwan Center, King Abdulaziz Rd, As Sahafah, Riyadh 13321, Saudi Arabia",
+  "district": "As Sahafah",
+  "niche_name": "صالون تجميل",
+  "years": 8,
+  "hero_url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+  "hours": {
+   "السبت": "2–10 PM",
+   "الأحد": "2–10 PM",
+   "الاثنين": "2–10 PM",
+   "الثلاثاء": "2–10 PM",
+   "الأربعاء": "2–10 PM",
+   "الخميس": "2–10 PM",
+   "الجمعة": "2–10 PM"
+  },
+  "reviews": [
+   {
+    "author": "nouf",
+    "stars": 2,
+    "text": "I got a lash lift which was good. But during my appointment there was a kid that was playing music, singing, and dancing which disrupted any relaxation I could get. And no coffee or water was offered to me unlike the other customers in the …"
+   },
+   {
+    "author": "Leena Ali",
+    "stars": 5,
+    "text": "A beautiful elegant spot, everything was extremely organized! And this is what I love the most in every single salon and what makes a customer comeback! The place was clean and quiet, the staff were super friendly and professional, I did my …"
+   },
+   {
+    "author": "Nora Al Harbi",
+    "stars": 1,
+    "text": "I booked at an appointment for 4pm, I was at the salon waiting from 3:45pm. I was told to go upstairs and wait while the lash technician had just started working on some other clients nails, I spoke to the receptionist and she said that she …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ed-salon-hair-nail-صالون-اي-دي_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ed-salon-hair-nail-صالون-اي-دي_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ed-salon-hair-nail-صالون-اي-دي_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ed-salon-hair-nail-صالون-اي-دي_4.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ed-salon-hair-nail-صالون-اي-دي_5.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "BeautySalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/ED+salon+Hair+%26+Nail.-+%D8%B5%D8%A7%D9%84%D9%88%D9%86+%D8%A7%D9%8A+%D8%AF%D9%8A%E2%80%AD/data=!4m7!3m6!1s0x3e2ee57ee9d41729:0xd6124f77282ce5f1!8m2!3d24.8133849!4d46.6459856!16s%2Fg%2F11rffbvywy!19sChIJKRfU6X7lLj4R8eUsKHdPEtY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Alwan Center",
+    "postalCode": "13321"
+   }
+  },
+  "phone_display": "+966 53 550 5223",
+  "about_sub": "صالون تجميل في {district} — والأرقام تتحدث عن نفسها",
+  "faqs": [
+   {
+    "q": "ما الذي يميّز ED salon Hair & Nail.- صالون اي دي؟",
+    "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم ED salon Hair & Nail.- صالون اي دي من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+   },
+   {
+    "q": "كيف أحجز أو أستفسر؟",
+    "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+   },
+   {
+    "q": "أين الموقع بالضبط؟",
+    "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+   },
+   {
+    "q": "ما مواعيد العمل؟",
+    "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+   }
+  ]
+ },
+ {
+  "slug": "fitness-star-gym",
+  "file": "fitness-star-gym.html",
+  "name": "fitness star gym",
+  "niche": "gym",
+  "url": "https://riyadh.aidy.site/sa/riyadh/fitness-star-gym.html",
+  "phone_intl": "+966569432375",
+  "rating": 4.4,
+  "review_count": 136,
+  "address": "King Faisal Road, Al Futah, Riyadh 12632, Saudi Arabia",
+  "district": "Al Futah",
+  "niche_name": "مركز لياقة",
+  "mark": "🔥",
+  "years": 5,
+  "hero_url": "https://pages.aidy.site/hero/gym.jpg",
+  "hours": {
+   "السبت": "10:30 AM–11:30 PM",
+   "الأحد": "10:30 AM–11:30 PM",
+   "الاثنين": "10:30 AM–11:30 PM",
+   "الثلاثاء": "10:30 AM–11:30 PM",
+   "الأربعاء": "10:30 AM–11:30 PM",
+   "الخميس": "10:30 AM–11:30 PM",
+   "الجمعة": "3:30–8 PM"
+  },
+  "reviews": [
+   {
+    "author": "Ninocharlon Arrogante",
+    "stars": 5,
+    "text": "Its nice and friendly people specially my coach so nice"
+   },
+   {
+    "author": "Eyad T",
+    "stars": 5,
+    "text": "The gym has the essential of what you need to build up your body and get healthy but If you looking to sit in hot sauna for two hours without doing a thing and call it a workout then this not the gym for you mate! …"
+   },
+   {
+    "author": "Jamison Mamuri",
+    "stars": 5,
+    "text": "Good place to work out😃 …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/gym.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/fitness-star-gym_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/fitness-star-gym_2.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "ExerciseGym",
+   "sameAs": [
+    "https://www.google.com/maps/place/fitness+star+gym/data=!4m7!3m6!1s0x3e2f0556064bff93:0x4219d7494ffa2dfb!8m2!3d24.6428948!4d46.7142837!16s%2Fg%2F11j0qzt3_8!19sChIJk_9LBlYFLz4R-y36T0nXGUI?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "King Faisal Road",
+    "postalCode": "12632"
+   }
+  },
+  "services_lead": "أجهزة وبرامج ومتابعة",
+  "phone_display": "+966 56 943 2375",
+  "about_sub": "مركز لياقة في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "{district} — {city_ar}"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   }
+  ],
+  "services": [
+   {
+    "title": "أجهزة cardio",
+    "text": "أجهزة مشي وجري ودروس هوائية حديثة ومُصانة.",
+    "tag": "cardio"
+   },
+   {
+    "title": "أوزان وحديد",
+    "text": "قاعة أوزان كاملة بمعدّات تناسب المحترفين والمبتدئين.",
+    "tag": "أوزان"
+   },
+   {
+    "title": "برامج متابعة",
+    "text": "برامج مخصصة مع متابعة مستمرة لتقدّمك.",
+    "tag": "برامج"
+   },
+   {
+    "title": "أجواء محفزة",
+    "text": "بيئة طاقة إيجابية تخليك تلتزم وتوصل لهدفك.",
+    "tag": "أجواء"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ما الذي يميّز {name}؟",
+    "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم {name} من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+   },
+   {
+    "q": "كيف أحجز أو أستفسر؟",
+    "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+   },
+   {
+    "q": "أين الموقع بالضبط؟",
+    "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+   },
+   {
+    "q": "ما مواعيد العمل؟",
+    "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+   }
+  ]
+ },
+ {
+  "slug": "five-minutes-barbershop-صالون-فايف-منتس-للحلاقة",
+  "file": "five-minutes-barbershop-صالون-فايف-منتس-للحلاقة.html",
+  "name": "Five Minutes Barbershop صالون فايف منتس للحلاقة",
+  "niche": "barbershop",
+  "url": "https://riyadh.aidy.site/sa/riyadh/five-minutes-barbershop-صالون-فايف-منتس-للحلاقة.html",
+  "phone_intl": "+966500309038",
+  "rating": 4.5,
+  "review_count": 2545,
+  "address": "Prince mohammed ben Salma, st, Riyadh 13515, Saudi Arabia",
+  "district": "st",
+  "niche_name": "صالون حلاقة رجالية",
+  "hero_url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "hours": {
+   "السبت": "2 PM–2 AM",
+   "الأحد": "2 PM–2 AM",
+   "الاثنين": "2 PM–2 AM",
+   "الثلاثاء": "2 PM–2 AM",
+   "الأربعاء": "2 PM–2 AM",
+   "الخميس": "2 PM–2 AM",
+   "الجمعة": "2 PM–2 AM"
+  },
+  "reviews": [
+   {
+    "author": "gibraan ashraf",
+    "stars": 5,
+    "text": "Had a great experience with Hamza from Tunisia today. He did a really good job, everything turned out clean, neat, and exactly how I wanted it. You can tell he’s skilled and pays attention to the details"
+   },
+   {
+    "author": "Ebrahim Robbani",
+    "stars": 5,
+    "text": "I came in with a hair cut that went wrong. Hamza from Tunisia fixed my hair and gave me a great hair and beard fade. I will definitely be a returning customer. Best place in Riyadh I have visited!\n10/10 highly recommend"
+   },
+   {
+    "author": "Suley",
+    "stars": 5,
+    "text": "One of the best barbers in Riyadh for an amazing price point. I would ask for Hamza, from Tunisia, he is an excellent barber and is very friendly."
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/barbershop.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/five-minutes-barbershop-صالون-فايف-منتس-للحلاقة_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/five-minutes-barbershop-صالون-فايف-منتس-للحلاقة_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/five-minutes-barbershop-صالون-فايف-منتس-للحلاقة_3.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "HairSalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/Five+Minutes+Barbershop+%D8%B5%D8%A7%D9%84%D9%88%D9%86+%D9%81%D8%A7%D9%8A%D9%81+%D9%85%D9%86%D8%AA%D8%B3+%D9%84%D9%84%D8%AD%D9%84%D8%A7%D9%82%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x3e2ee31ddf2e1b61:0xd745c5e3b2d42663!8m2!3d24.7740663!4d46.6300708!16s%2Fg%2F11sjyj7d35!19sChIJYRsu3x3jLj4RYybUsuPFRdc?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Prince mohammed ben Salma",
+    "postalCode": "13515"
+   }
+  },
+  "phone_display": "+966 50 030 9038",
+  "about_sub": "صالون حلاقة رجالية في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "{district} — {city_ar}"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   }
+  ]
+ },
+ {
+  "slug": "future-of-trust-car-workshop-shafi",
+  "file": "future-of-trust-car-workshop-shafi.html",
+  "name": "FUTURE OF TRUST Car Workshop - Shafi",
+  "niche": "auto_repair",
+  "url": "https://riyadh.aidy.site/sa/riyadh/future-of-trust-car-workshop-shafi.html",
+  "phone_intl": "+966506464635",
+  "rating": 4.7,
+  "review_count": 49,
+  "address": "2289-2357 Nashat Khauja Sulaiman, 8241, Al Sina'iyah, Riyadh 12871, Saudi Arabia",
+  "district": "Al Sina'iyah",
+  "niche_name": "خدمة صيانة سيارات",
+  "years": 10,
+  "hero_url": "https://pages.aidy.site/hero/auto_repair.jpg",
+  "hours": {
+   "السبت": "8 AM–7:30 PM",
+   "الأحد": "8 AM–7:30 PM",
+   "الاثنين": "8 AM–7:30 PM",
+   "الثلاثاء": "8 AM–7:30 PM",
+   "الأربعاء": "8 AM–7:30 PM",
+   "الخميس": "8 AM–7:30 PM",
+   "الجمعة": "Closed"
+  },
+  "reviews": [
+   {
+    "author": "Abdurrahman Manu",
+    "stars": 5,
+    "text": "Very good service.. Affordable price..and Punctual"
+   },
+   {
+    "author": "Najad Nazeer",
+    "stars": 5,
+    "text": "Highly recommend.... Shafikka, Shafy bhai, one of the best experienced mechanic in riyadh. Especially Japanese cars like Toyota,Nissan, Mazda, Izuzu etc... …"
+   },
+   {
+    "author": "Saad Ahmed Sha",
+    "stars": 5,
+    "text": "Excellent service! A trustworthy mechanic who provides quality work at a fair price. Highly recommend for reliable and professional repairs.\nShafi ka"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/auto_repair.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/future-of-trust-car-workshop-shafi_1.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "AutoRepair",
+   "sameAs": [
+    "https://www.google.com/maps/place/FUTURE+OF+TRUST+Car+Workshop+-+Shafi/data=!4m7!3m6!1s0x3e2f05e797a5d585:0x6dd50a82136ac834!8m2!3d24.6330875!4d46.7400737!16s%2Fg%2F11f2drvm3f!19sChIJhdWll-cFLz4RNMhqE4IK1W0?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "2289-2357 Nashat Khauja Sulaiman",
+    "postalCode": "12871"
+   }
+  },
+  "services_lead": "خدمات صيانة بمعايير واضحة",
+  "phone_display": "+966 50 646 4635",
+  "about_sub": "خدمة صيانة سيارات في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   }
+  ],
+  "services": [
+   {
+    "title": "صيانة شاملة",
+    "text": "خدمات صيانة متنوعة تناسب كل الموديلات بمعايير واضحة.",
+    "tag": "صيانة"
+   },
+   {
+    "title": "تشخيص أعطال",
+    "text": "فحص دقيق وتحديد سبب العطل قبل أي إصلاح.",
+    "tag": "تشخيص"
+   },
+   {
+    "title": "قطع أصلية",
+    "text": "استخدام قطع ذات جودة معتمدة مع ضمان على الشغل.",
+    "tag": "قطع"
+   },
+   {
+    "title": "التزام بالمواعيد",
+    "text": "التزام بمواعيد التسجيل المتفق عليها.",
+    "tag": "مواعيد"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ما الذي يميّز {name}؟",
+    "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم {name} من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+   },
+   {
+    "q": "كيف أحجز أو أستفسر؟",
+    "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+   },
+   {
+    "q": "أين الموقع بالضبط؟",
+    "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+   },
+   {
+    "q": "ما مواعيد العمل؟",
+    "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+   }
+  ]
+ },
+ {
+  "slug": "gedeb",
+  "file": "gedeb.html",
+  "name": "Gedeb",
+  "niche": "coffee",
+  "url": "https://riyadh.aidy.site/sa/riyadh/gedeb.html",
+  "phone_intl": "+966502100209",
+  "rating": 4.3,
+  "review_count": 2441,
+  "address": "العليا،, Riyadh Saudi Arabia",
+  "district": "الرياض",
+  "niche_name": "كوفي شوب",
+  "hero_url": "https://pages.aidy.site/hero/coffee.jpg",
+  "hours": {
+   "السبت": "Open 24 hours",
+   "الأحد": "Open 24 hours",
+   "الاثنين": "Open 24 hours",
+   "الثلاثاء": "Open 24 hours",
+   "الأربعاء": "Open 24 hours",
+   "الخميس": "Open 24 hours",
+   "الجمعة": "12–6 AM , 1 PM–12 AM"
+  },
+  "reviews": [
+   {
+    "author": "Abida Rahman",
+    "stars": 2,
+    "text": "So upset with this restaurant! The Madrid cheese cake is hard and tastes so bad, like something is spoilt and the chocolate cake…i wish they used better quality chocolate. It has too much cream and makes it fatty to eat.\nNot recommended! Id rather go to the other cafes near it😤😭😭😭😭 …"
+   },
+   {
+    "author": "Shabbir Husain",
+    "stars": 5,
+    "text": "Gedeb | A beautiful cafe | Downtown | Ulaya | Barista | Osama | Rahmatullah\n\nGreat coffee | Nice pastries | Fresh Croissants | Delicious Desserts | ........ …"
+   },
+   {
+    "author": "DMTR",
+    "stars": 3,
+    "text": "Positive thoughts:\nGreat coffee, beautiful venue, staff speaks English. …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/coffee.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/gedeb_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/gedeb_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/gedeb_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/gedeb_4.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/gedeb_5.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/gedeb_6.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "CafeOrCoffeeShop",
+   "sameAs": [
+    "https://www.google.com/maps/place/Gedeb/data=!4m7!3m6!1s0x3e2f036a28809b43:0x3df37ac10ce51d48!8m2!3d24.702485!4d46.6809347!16s%2Fg%2F11t7k8z5m7!19sChIJQ5uAKGoDLz4RSB3lDMF68z0?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "العليا،"
+   }
+  },
+  "phone_display": "+966 50 210 0209",
+  "usps": [
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   }
+  ]
+ },
+ {
+  "slug": "hair-lab-barbershop-spa-صالون-وحلاق-هير-لاب-للحلاقة-والسبا",
+  "file": "hair-lab-barbershop-spa-صالون-وحلاق-هير-لاب-للحلاقة-والسبا.html",
+  "name": "Hair lab Barbershop & Spa | صالون وحلاق هير لاب للحلاقة والسبا",
+  "niche": "barbershop",
+  "url": "https://riyadh.aidy.site/sa/riyadh/hair-lab-barbershop-spa-صالون-وحلاق-هير-لاب-للحلاقة-والسبا.html",
+  "phone_intl": "+966553338442",
+  "rating": 4.8,
+  "review_count": 1851,
+  "address": "3161 Prince Turki Bin Abdulaziz Al Awal Rd، 6485، RGHA6485, Riyadh 12362, Saudi Arabia",
+  "district": "الرياض",
+  "niche_name": "صالون حلاقة رجالية",
+  "years": 15,
+  "hero_url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "hours": {
+   "السبت": "Open 24 hours",
+   "الأحد": "Open 24 hours",
+   "الاثنين": "Open 24 hours",
+   "الثلاثاء": "Open 24 hours",
+   "الأربعاء": "Open 24 hours",
+   "الخميس": "Open 24 hours",
+   "الجمعة": "Open 24 hours"
+  },
+  "reviews": [
+   {
+    "author": "Mohanad Alalul",
+    "stars": 5,
+    "text": "Best barbershop in town. I was so impressed with the final look. Very professional and attentive. I highly recommend this barbershop you will not be disappointed. Mohammed Al-Kafas is my go to barber. He’s very talented and gives the best fades/cuts. Thank you Hair Lab team for the vip experience!"
+   },
+   {
+    "author": "Arbustum Works",
+    "stars": 5,
+    "text": "I had a massage session with Zain from Bali, and it was one of the best experiences I’ve ever had. …"
+   },
+   {
+    "author": "Rodrigo Mendez",
+    "stars": 5,
+    "text": "Probably best service in my life. Definitely best in Saudi Arabia! (3 years)\n\nMunir’s technique, professionalism and treatment were simply outstanding. He …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/barbershop.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/hair-lab-barbershop-spa-صالون-وحلاق-هير-لاب-للحلاقة-والسبا_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/hair-lab-barbershop-spa-صالون-وحلاق-هير-لاب-للحلاقة-والسبا_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/hair-lab-barbershop-spa-صالون-وحلاق-هير-لاب-للحلاقة-والسبا_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/hair-lab-barbershop-spa-صالون-وحلاق-هير-لاب-للحلاقة-والسبا_4.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/hair-lab-barbershop-spa-صالون-وحلاق-هير-لاب-للحلاقة-والسبا_5.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/hair-lab-barbershop-spa-صالون-وحلاق-هير-لاب-للحلاقة-والسبا_6.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "HairSalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/Hair+lab+Barbershop+%26+Spa+%7C+%D8%B5%D8%A7%D9%84%D9%88%D9%86+%D9%88%D8%AD%D9%84%D8%A7%D9%82+%D9%87%D9%8A%D8%B1+%D9%84%D8%A7%D8%A8+%D9%84%D9%84%D8%AD%D9%84%D8%A7%D9%82%D8%A9+%D9%88%D8%A7%D9%84%D8%B3%D8%A8%D8%A7%E2%80%AD/data=!4m7!3m6!1s0x3e2f1d001c4d4967:0xcfec5c78fc225b55!8m2!3d24.7247161!4d46.6452145!16s%2Fg%2F11wtt6n3g_!19sChIJZ0lNHAAdLz4RVVsi_Hhc7M8?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "3161 Prince Turki Bin Abdulaziz Al Awal Rd، 6485، RGHA6485",
+    "postalCode": "12362"
+   }
+  },
+  "phone_display": "+966 55 333 8442",
+  "usps": [
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "في {district} — {city_ar}"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ما الذي يميّز Hair lab Barbershop & Spa | صالون وحلاق هير لاب للحلاقة والسبا؟",
+    "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم Hair lab Barbershop & Spa | صالون وحلاق هير لاب للحلاقة والسبا من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+   },
+   {
+    "q": "كيف أحجز أو أستفسر؟",
+    "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+   },
+   {
+    "q": "أين الموقع بالضبط؟",
+    "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+   },
+   {
+    "q": "ما مواعيد العمل؟",
+    "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+   },
+   {
+    "q": "محتاج أحجز قبل ما أروح؟",
+    "a": "الأفضل أن تحجز مسبقاً، خصوصاً في أوقات الذروة — راسلهم على الواتساب واحجز موعدك."
+   }
+  ]
+ },
+ {
+  "slug": "harmonic-barbershop",
+  "file": "harmonic-barbershop.html",
+  "name": "HARMONIC BARBERSHOP",
+  "niche": "barbershop",
+  "url": "https://riyadh.aidy.site/sa/riyadh/harmonic-barbershop.html",
+  "phone_intl": "+966531952200",
+  "rating": 4.7,
+  "review_count": 759,
+  "address": "شارع الاعتماد, Al Malqa, Riyadh 13523, Saudi Arabia",
+  "district": "Al Malqa",
+  "niche_name": "صالون حلاقة رجالية",
+  "hero_url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "hours": {
+   "السبت": "1–11:30 PM",
+   "الأحد": "1–11:30 PM",
+   "الاثنين": "1–11:30 PM",
+   "الثلاثاء": "1–11:30 PM",
+   "الأربعاء": "1–11:30 PM",
+   "الخميس": "1–11:30 PM",
+   "الجمعة": "1–11:30 PM"
+  },
+  "reviews": [
+   {
+    "author": "Patrick Hogan",
+    "stars": 5,
+    "text": "Abdullah was great his attention to detail was awesome best Pedicure and Manicure ive had whilst in Riyadh, I would highly recommend a visit here"
+   },
+   {
+    "author": "Handre Louw",
+    "stars": 1,
+    "text": "The service is average in comparison to other barbers in Riyadh. Also it is a rip off, they charger me SAR353, for a beard trim, where they didn’t even use a blade to clean the neck area and a facial. I have received a haircut, much better beard trim and the same facial for SAR100 at Rayan Fingertips in Qirawan"
+   },
+   {
+    "author": "Amar Batkhuu",
+    "stars": 5,
+    "text": "Highly recommended. Super cool place with excellent service. Amazing haircut and shave from Moath معاذ ."
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/barbershop.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/harmonic-barbershop_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/harmonic-barbershop_2.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "HairSalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/HARMONIC+BARBERSHOP/data=!4m7!3m6!1s0x3e2ee15400e132a5:0xf887ae6d10a11000!8m2!3d24.7793908!4d46.5874565!16s%2Fg%2F11snt2vdv3!19sChIJpTLhAFThLj4RABChEG2uh_g?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "شارع الاعتماد",
+    "postalCode": "13523"
+   }
+  },
+  "phone_display": "+966 53 195 2200",
+  "about_sub": "صالون حلاقة رجالية في {district} — والأرقام تتحدث عن نفسها"
+ },
+ {
+  "slug": "holic-beauty-salon-nailsholic-سابقا",
+  "file": "holic-beauty-salon-nailsholic-سابقا.html",
+  "name": "Holic Beauty Salon (Nailsholic) سابقاً",
+  "niche": "nail_salon",
+  "url": "https://riyadh.aidy.site/sa/riyadh/holic-beauty-salon-nailsholic-سابقا.html",
+  "phone_intl": "+966532996766",
+  "rating": 4.7,
+  "review_count": 1048,
+  "address": "Olaya St, Al Wurud, Riyadh 11486, Saudi Arabia",
+  "district": "Al Wurud",
+  "niche_name": "صالون تجميل",
+  "hero_url": "https://pages.aidy.site/hero/nail_salon.jpg",
+  "hours": {
+   "السبت": "12:30–10:30 PM",
+   "الأحد": "11 AM–10:30 PM",
+   "الاثنين": "11 AM–10:30 PM",
+   "الثلاثاء": "11 AM–10:30 PM",
+   "الأربعاء": "11:30 AM–10:30 PM",
+   "الخميس": "11 AM–10:30 PM",
+   "الجمعة": "12:30–10:30 PM"
+  },
+  "reviews": [
+   {
+    "author": "White Prisms",
+    "stars": 5,
+    "text": "Absolutely stellar experience and amazing work by Aigul (BIAB manicure 💅) and Michelle (gel colour pedicure). So clean and well-done always! I never have lifting, chipping, peeling or any other issues. Thank you! 🥰🙏 …"
+   },
+   {
+    "author": "Emy",
+    "stars": 5,
+    "text": "My 2nd visit to Holic Salon, and I’m just as happy as I was the first time. Everyone is so warm and welcoming—from the receptionists to the other staff. They always greet you with a smile and make you feel comfortable throughout your visit. …"
+   },
+   {
+    "author": "Lana Aldraian",
+    "stars": 5,
+    "text": "I did my nails with Michelle, I’m more than satisfied🙏🏼 She’s so nice, did an amazing detailed job on my nails, and the receptions are really nice too! Definitely coming again🤍 …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/nail_salon.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/holic-beauty-salon-nailsholic-سابقا_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/holic-beauty-salon-nailsholic-سابقا_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/holic-beauty-salon-nailsholic-سابقا_3.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "NailSalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/Holic+Beauty+Salon+%28Nailsholic%29+%D8%B3%D8%A7%D8%A8%D9%82%D8%A7%D9%8B%E2%80%AD/data=!4m7!3m6!1s0x3e2ee38b981758e3:0xe9f8511fa6d8e8e2!8m2!3d24.7264421!4d46.6690777!16s%2Fg%2F11twhy748y!19sChIJ41gXmIvjLj4R4ujYph9R-Ok?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Olaya St",
+    "postalCode": "11486"
+   }
+  },
+  "services_lead": "كل خدمات التجميل في مكان واحد",
+  "phone_display": "+966 53 299 6766",
+  "about_sub": "صالون تجميل في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   }
+  ]
+ },
+ {
+  "slug": "ik-coffee-downtown",
+  "file": "ik-coffee-downtown.html",
+  "name": "IK coffee Downtown",
+  "niche": "coffee",
+  "url": "https://riyadh.aidy.site/sa/riyadh/ik-coffee-downtown.html",
+  "phone_intl": "+966559980264",
+  "rating": 4.5,
+  "review_count": 511,
+  "address": "Musa Ibn Nusair St, Al Olaya, Riyadh 12241, Saudi Arabia",
+  "district": "Al Olaya",
+  "niche_name": "كوفي شوب",
+  "years": 10,
+  "hero_url": "https://pages.aidy.site/hero/coffee.jpg",
+  "hours": {
+   "السبت": "7 AM–11 PM",
+   "الأحد": "7 AM–11 PM",
+   "الاثنين": "7 AM–11 PM",
+   "الثلاثاء": "7 AM–11 PM",
+   "الأربعاء": "7 AM–11 PM",
+   "الخميس": "7 AM–2 AM",
+   "الجمعة": "7 AM–2 AM"
+  },
+  "reviews": [
+   {
+    "author": "Rulla abu khadra",
+    "stars": 5,
+    "text": "Excellent experience at IK Coffee Shop Downtown. The location is very good and convenient, the coffee and food were both excellent, and all the staff were friendly and welcoming. Special thanks to Tapendra for the outstanding service — …"
+   },
+   {
+    "author": "عبدالله ا",
+    "stars": 5,
+    "text": "I come here almost every day and the service is always excellent. The barista is friendly, professional, and consistently makes great coffee. You can tell he really cares about quality and customer experience. Highly recommended."
+   },
+   {
+    "author": "Bader Alhuzaimy",
+    "stars": 5,
+    "text": "I'm amazed at how this branch has a different atmosphere but still keeps its identity. The small kitchen is a great addition, and the coffee is yummy. The cheesecake is delicious, and all the desserts are well made."
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/coffee.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ik-coffee-downtown_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ik-coffee-downtown_2.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "CafeOrCoffeeShop",
+   "sameAs": [
+    "https://www.google.com/maps/place/IK+coffee+Downtown/data=!4m7!3m6!1s0x3e2f0385060a46a1:0x8aa4df79417558b1!8m2!3d24.7047196!4d46.6840196!16s%2Fg%2F11vjtflfr0!19sChIJoUYKBoUDLz4RsVh1QXnfpIo?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Musa Ibn Nusair St",
+    "postalCode": "12241"
+   }
+  },
+  "phone_display": "+966 55 998 0264",
+  "about_sub": "كوفي شوب في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "{district} — {city_ar}"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   }
+  ]
+ },
+ {
+  "slug": "in2fitness-al-arid-men",
+  "file": "in2fitness-al-arid-men.html",
+  "name": "iN2Fitness - Al Arid Men",
+  "niche": "gym",
+  "url": "https://riyadh.aidy.site/sa/riyadh/in2fitness-al-arid-men.html",
+  "phone_intl": "+966920003714",
+  "rating": 4.6,
+  "review_count": 497,
+  "address": "شارع عبدالله بن العاص, Al Aarid, Riyadh 13338, Saudi Arabia",
+  "district": "Al Aarid",
+  "niche_name": "صالة رياضية",
+  "hero_url": "https://pages.aidy.site/hero/gym.jpg",
+  "hours": {
+   "السبت": "6 AM–12 AM",
+   "الأحد": "6 AM–12 AM",
+   "الاثنين": "6 AM–12 AM",
+   "الثلاثاء": "6 AM–12 AM",
+   "الأربعاء": "6 AM–12 AM",
+   "الخميس": "6 AM–12 AM",
+   "الجمعة": "2 PM–12 AM"
+  },
+  "reviews": [
+   {
+    "author": "Sayyedadnan Adnan",
+    "stars": 5,
+    "text": "Good gym and professional trainers matrix good machine  clean environment and staff nice 👍 …"
+   },
+   {
+    "author": "Ayoub Hallam",
+    "stars": 5,
+    "text": "Best gym in the neighbourhood. Coach Zouhair is a beast! Knowledgeable and professional, thanks to him I improved my discipline and body"
+   },
+   {
+    "author": "Ramcharan Mandal",
+    "stars": 5,
+    "text": "I lik the gym goood"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/gym.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/in2fitness-al-arid-men_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/in2fitness-al-arid-men_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/in2fitness-al-arid-men_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/in2fitness-al-arid-men_4.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/in2fitness-al-arid-men_5.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/in2fitness-al-arid-men_6.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/in2fitness-al-arid-men_7.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "ExerciseGym",
+   "sameAs": [
+    "https://www.google.com/maps/place/iN2Fitness+-+Al+Arid+Men/data=!4m7!3m6!1s0x3e2eef29466dd67f:0xf99a9fa6891e7a6c!8m2!3d24.8827696!4d46.6291155!16s%2Fg%2F11yqvp5c_s!19sChIJf9ZtRinvLj4RbHoeiaafmvk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "شارع عبدالله بن العاص",
+    "postalCode": "13338"
+   }
+  },
+  "phone_display": "+966 9200 03714",
+  "about_sub": "صالة رياضية في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   }
+  ]
+ },
+ {
+  "slug": "j-f-revolution-ems-justfit-fitness",
+  "file": "j-f-revolution-ems-justfit-fitness.html",
+  "name": "J. F. REVOLUTION EMS Justfit Fitness",
+  "niche": "gym",
+  "url": "https://riyadh.aidy.site/sa/riyadh/j-f-revolution-ems-justfit-fitness.html",
+  "phone_intl": "+966552581368",
+  "rating": 4.6,
+  "review_count": 121,
+  "address": "7664 Al Hussein Ibn Ali, At Taawun, 3592, Riyadh 12478, Saudi Arabia",
+  "district": "الرياض",
+  "niche_name": "صالة رياضية",
+  "years": 3,
+  "hero_url": "https://pages.aidy.site/hero/gym.jpg",
+  "hours": {
+   "السبت": "12–9 PM",
+   "الأحد": "12–9 PM",
+   "الاثنين": "12–9 PM",
+   "الثلاثاء": "12–9 PM",
+   "الأربعاء": "12–9 PM",
+   "الخميس": "12–9 PM",
+   "الجمعة": "Closed"
+  },
+  "reviews": [
+   {
+    "author": "Sara Alsulaimani",
+    "stars": 5,
+    "text": "Highly Recommended. Training with Coach Ragad was amazing and tailored to the client's need. She is very professional and Knowledgeable. …"
+   },
+   {
+    "author": "Kpop .S",
+    "stars": 5,
+    "text": "“Training with [Coach Erin] has been one of the best parts of my fitness journey. She’s not only knowledgeable and professional, but also incredibly motivating and supportive. Her positive energy makes every session enjoyable, and she truly …"
+   },
+   {
+    "author": "Moo habib",
+    "stars": 5,
+    "text": "Very good place 👌💪 …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/gym.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/j-f-revolution-ems-justfit-fitness_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/j-f-revolution-ems-justfit-fitness_2.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "ExerciseGym",
+   "sameAs": [
+    "https://www.google.com/maps/place/J.+F.+REVOLUTION+EMS+Justfit+Fitness/data=!4m7!3m6!1s0x3e2f1db17a5d62ef:0xa29e54e418e0120f!8m2!3d24.7763147!4d46.7028543!16s%2Fg%2F11smmd_h1r!19sChIJ72JderEdLz4RDxLgGORUnqI?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "7664 Al Hussein Ibn Ali",
+    "postalCode": "12478"
+   }
+  },
+  "phone_display": "+966 55 258 1368",
+  "usps": [
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "في {district} — {city_ar}"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   }
+  ]
+ },
+ {
+  "slug": "java-time",
+  "file": "java-time.html",
+  "name": "Java Time",
+  "niche": "coffee",
+  "url": "https://riyadh.aidy.site/sa/riyadh/java-time.html",
+  "phone_intl": "+966502662288",
+  "rating": 4.3,
+  "review_count": 4113,
+  "address": "Imam Saud Bin Abdulaziz Bin Mohammed Rd, Al Mohammadiyyah, Riyadh 12364, Saudi Arabia",
+  "district": "Al Mohammadiyyah",
+  "niche_name": "مقهى",
+  "hero_url": "https://pages.aidy.site/hero/coffee.jpg",
+  "hours": {
+   "السبت": "Open 24 hours",
+   "الأحد": "Open 24 hours",
+   "الاثنين": "Open 24 hours",
+   "الثلاثاء": "Open 24 hours",
+   "الأربعاء": "Open 24 hours",
+   "الخميس": "Open 24 hours",
+   "الجمعة": "Open 24 hours"
+  },
+  "reviews": [
+   {
+    "author": "Pao M",
+    "stars": 4,
+    "text": "In the bustling city, finding the perfect study spot can be as challenging as the studying itself. However, nestled in a cozy corner of town lies Java Time, a coffee shop that seems to understand the plight of students and professionals …"
+   },
+   {
+    "author": "Ahmed Khalifa",
+    "stars": 2,
+    "text": "Friendly staff and excellent service.\n\nHowever, many of the power outlets are not working, which made the stay …"
+   },
+   {
+    "author": "Louie Bayquin -VLOGS-",
+    "stars": 5,
+    "text": "We order coffee here and chill on top of the coffee shop and enjoy the overlooking of facing at KAPD and Digital City area, the view are relaxing the coffee was great as we order Nirvana flavor if you like cinnamon taste like and sweet definitely you'll love it."
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/coffee.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/java-time_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/java-time_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/java-time_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/java-time_4.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/java-time_5.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "CafeOrCoffeeShop",
+   "sameAs": [
+    "https://www.google.com/maps/place/%D8%AC%D8%A7%D9%81%D8%A7+%D8%AA%D8%A7%D9%8A%D9%85%E2%80%AD/data=!4m7!3m6!1s0x3e2ee29b4769c6cf:0x5d92fcf24ac17c69!8m2!3d24.738591!4d46.642455!16s%2Fg%2F11f39sgqf0!19sChIJz8ZpR5viLj4RaXzBSvL8kl0?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Imam Saud Bin Abdulaziz Bin Mohammed Rd",
+    "postalCode": "12364"
+   }
+  },
+  "services_lead": "قهوة وفطار وأجمال تخلّي اليوم أحلى",
+  "phone_display": "+966 50 266 2288",
+  "about_sub": "مقهى في {district} — والأرقام تتحدث عن نفسها",
+  "services": [
+   {
+    "title": "قهوة ومشروبات",
+    "text": "قهوة بمستويات متنوعة ومشروبات تُحضَّر باهتمام بالتفصيل.",
+    "tag": "قهوة"
+   },
+   {
+    "title": "فطار وحلويات",
+    "text": "خيارات فطار طازجة وحلويات بتنوّع يرضي كل الأذواق.",
+    "tag": "فطار"
+   },
+   {
+    "title": "أجواء المكان",
+    "text": "مساحة واسعة ومريحة مناسبة للقاءات والشغل والاسترخاء.",
+    "tag": "أجواء"
+   },
+   {
+    "title": "خدمة سريعة",
+    "text": "فريق سريع ومحترم بيخلي تجربتك مريحة من أول لحظة.",
+    "tag": "خدمة"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ما الذي يميّز {name}؟",
+    "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم {name} من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+   },
+   {
+    "q": "كيف أحجز أو أستفسر؟",
+    "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+   },
+   {
+    "q": "أين الموقع بالضبط؟",
+    "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+   },
+   {
+    "q": "ما مواعيد العمل؟",
+    "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+   }
+  ]
+ },
+ {
+  "slug": "ombre-beauty-salon",
+  "file": "ombre-beauty-salon.html",
+  "name": "Ombre beauty salon",
+  "niche": "beauty_salon",
+  "url": "https://riyadh.aidy.site/sa/riyadh/ombre-beauty-salon.html",
+  "phone_intl": "+966547534740",
+  "rating": 4.4,
+  "review_count": 4688,
+  "address": "Qurtubah, Riyadh 13248, Saudi Arabia",
+  "district": "Qurtubah",
+  "niche_name": "صالون تجميل",
+  "years": 5,
+  "hero_url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+  "hours": {
+   "السبت": "2–10 PM",
+   "الأحد": "Closed",
+   "الاثنين": "2–10 PM",
+   "الثلاثاء": "2–10 PM",
+   "الأربعاء": "2–10 PM",
+   "الخميس": "2–10 PM",
+   "الجمعة": "2–10 PM"
+  },
+  "reviews": [
+   {
+    "author": "Alanoud Alshammari",
+    "stars": 5,
+    "text": "I don’t usually write hair salon reviews, but I can’t even begin how impressed I am with the hairdresser who dyed my hair today (FOUZ 🩷) When it comes to professionalism, knowledge, hair colouring and styling, FOUZ & her team are the …"
+   },
+   {
+    "author": "Dania A. Kouther",
+    "stars": 5,
+    "text": "I did my nails with Nina and she didn’t disappoint!\nShe is professional, detail oriented, fast, and did exactly the same shape and color I want! …"
+   },
+   {
+    "author": "Hadia AlDabal",
+    "stars": 5,
+    "text": "I don’t usually write reviews but Bianca is honestly the best lash technician I’ve found in Riyadh. I’ve tried quite a few different lash artists, and nobody has done my lashes the way she does …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ombre-beauty-salon_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ombre-beauty-salon_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ombre-beauty-salon_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/ombre-beauty-salon_4.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "BeautySalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/Ombre+beauty+salon/data=!4m7!3m6!1s0x3e2efd5ff3b9f7bd:0x26f350696f3fcd5b!8m2!3d24.8187877!4d46.7315564!16s%2Fg%2F11t2d0dfdt!19sChIJvfe581_9Lj4RW80_b2lQ8yY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Qurtubah",
+    "postalCode": "13248"
+   }
+  },
+  "phone_display": "+966 54 753 4740",
+  "about_sub": "صالون تجميل في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "{district} — {city_ar}"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   }
+  ]
+ },
+ {
+  "slug": "powerlife-gym",
+  "file": "powerlife-gym.html",
+  "name": "Powerlife Gym",
+  "niche": "gym",
+  "url": "https://riyadh.aidy.site/sa/riyadh/powerlife-gym.html",
+  "phone_intl": "+966575140811",
+  "rating": 4.2,
+  "review_count": 201,
+  "address": "2339 Asad Ibn Al Fourat, street, Riyadh 12643, Saudi Arabia",
+  "district": "street",
+  "niche_name": "صالة رياضية",
+  "years": 3,
+  "hero_url": "https://pages.aidy.site/hero/gym.jpg",
+  "hours": {
+   "السبت": "6 AM–1 AM",
+   "الأحد": "6 AM–1 AM",
+   "الاثنين": "6 AM–1 AM",
+   "الثلاثاء": "6 AM–1 AM",
+   "الأربعاء": "6 AM–1 AM",
+   "الخميس": "6 AM–1 AM",
+   "الجمعة": "4 PM–1 AM"
+  },
+  "reviews": [
+   {
+    "author": "imran ansari ansari",
+    "stars": 5,
+    "text": "Gym is really nice, staff and coach are very professional. Most important thing the gym fee is very low compare to others."
+   },
+   {
+    "author": "Hari",
+    "stars": 5,
+    "text": "One of the best Gym in Batha, Riyadh. Fee is less as compared to other Gyms in that area. Will recommend."
+   },
+   {
+    "author": "Hussain khan",
+    "stars": 1,
+    "text": "This gym isn't at the indicated location 📍. I've tried contacting them, but the provided number is out of service 📵. The information needs to be updated. 🤷‍♂️ …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/gym.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/powerlife-gym_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/powerlife-gym_2.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "ExerciseGym",
+   "sameAs": [
+    "https://www.google.com/maps/place/Powerlife+Gym/data=!4m7!3m6!1s0x3e2f05ad88972cb1:0x9955909f2936f77f!8m2!3d24.6420757!4d46.7189937!16s%2Fg%2F11f_zp6wvx!19sChIJsSyXiK0FLz4Rf_c2KZ-QVZk?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "2339 Asad Ibn Al Fourat",
+    "postalCode": "12643"
+   }
+  },
+  "phone_display": "+966 57 514 0811",
+  "about_sub": "صالة رياضية في {district} — والأرقام تتحدث عن نفسها"
+ },
+ {
+  "slug": "sporttype-gym",
+  "file": "sporttype-gym.html",
+  "name": "SPORTTYPE GYM",
+  "niche": "gym",
+  "url": "https://riyadh.aidy.site/sa/riyadh/sporttype-gym.html",
+  "phone_intl": "+966555629272",
+  "rating": 4.6,
+  "review_count": 315,
+  "address": "العارض،، VJ3H+477، الامير سعود بن عبدالله بن جلوي،, Riyadh 13335, Saudi Arabia",
+  "district": "الرياض",
+  "niche_name": "نادي رياضي",
+  "mark": "🏋️",
+  "years": 5,
+  "hero_url": "https://pages.aidy.site/hero/gym.jpg",
+  "hours": {
+   "السبت": "6 AM–12 AM",
+   "الأحد": "6 AM–12 AM",
+   "الاثنين": "6 AM–12 AM",
+   "الثلاثاء": "6 AM–12 AM",
+   "الأربعاء": "6 AM–12 AM",
+   "الخميس": "6 AM–12 AM",
+   "الجمعة": "4 PM–12 AM"
+  },
+  "reviews": [
+   {
+    "author": "Rahesh Kumar",
+    "stars": 5,
+    "text": "I highly recommend SPORTTYPE GYM for anyone looking for a great place to train. The gym has excellent equipment, a welcoming ambiance, and a strong focus on cleanliness, which makes every workout comfortable and enjoyable. …"
+   },
+   {
+    "author": "wizr a",
+    "stars": 5,
+    "text": "Excellent gym with a great atmosphere and high-quality equipment.\nThe place is clean, organized, and perfect for training. The coach Javed is outstanding — professional, motivating, and genuinely cares about helping members …"
+   },
+   {
+    "author": "Alsafi Ka",
+    "stars": 5,
+    "text": "Great gym with a friendly and motivating atmosphere. The equipment is good, the environment is clean, and the staff are supportive. Special thanks to Aamir, the gym trainer, for his professional guidance, motivation, and helpful training. Highly recommended! 💪 …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/gym.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/sporttype-gym_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/sporttype-gym_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/sporttype-gym_3.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "SportsActivityLocation",
+   "sameAs": [
+    "https://www.google.com/maps/place/SPORTTYPE+GYM/data=!4m7!3m6!1s0x3e2ee51a4d18db9f:0x6ccc701b5f802e6!8m2!3d24.8528604!4d46.6280056!16s%2Fg%2F11t5hwk4hg!19sChIJn9sYTRrlLj4R5gL4tQHHzAY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "العارض،، VJ3H+477، الامير سعود بن عبدالله بن جلوي،",
+    "postalCode": "13335"
+   }
+  },
+  "services_lead": "برامج متنوعة لكل المستويات",
+  "phone_display": "+966 55 562 9272",
+  "h1": "نادٍ رياضي يساعدك على الوصول لهدفك",
+  "usps": [
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "في {district} — {city_ar}"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   }
+  ],
+  "services": [
+   {
+    "title": "أجهزة ومساحات",
+    "text": "أجهزة حديثة ومساحات تمرين واسعة مجهّزة على أعلى مستوى.",
+    "tag": "أجهزة"
+   },
+   {
+    "title": "تدريب متخصص",
+    "text": "مدربين معتمدين يضعوا برنامج مخصص لكل مشترك حسب هدفه.",
+    "tag": "تدريب"
+   },
+   {
+    "title": "حصص جماعية",
+    "text": "حصص متنوعة على مدار اليوم تناسب كل المستويات.",
+    "tag": "حصص"
+   },
+   {
+    "title": "نظافة وصيانة",
+    "text": "صيانة دورية ونظافة مستمرة تخليك تتمرين في بيئة مريحة.",
+    "tag": "نظافة"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ما الذي يميّز {name}؟",
+    "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم {name} من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+   },
+   {
+    "q": "كيف أحجز أو أستفسر؟",
+    "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+   },
+   {
+    "q": "أين الموقع بالضبط؟",
+    "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+   },
+   {
+    "q": "ما مواعيد العمل؟",
+    "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+   }
+  ],
+  "cta_heading": "جاهز تبدأ رحلتك الرياضية؟"
+ },
+ {
+  "slug": "stellar-beauty-salon",
+  "file": "stellar-beauty-salon.html",
+  "name": "Stellar Beauty Salon",
+  "niche": "nail_salon",
+  "url": "https://riyadh.aidy.site/sa/riyadh/stellar-beauty-salon.html",
+  "phone_intl": "+966556757718",
+  "rating": 4.3,
+  "review_count": 497,
+  "address": "7418 King Fahd Rd، 4354, Riyadh 12331, Saudi Arabia",
+  "district": "الرياض",
+  "niche_name": "صالون أظافر",
+  "years": 5,
+  "hero_url": "https://pages.aidy.site/hero/nail_salon.jpg",
+  "hours": {
+   "السبت": "12–11 PM",
+   "الأحد": "12–10 PM",
+   "الاثنين": "12–10 PM",
+   "الثلاثاء": "12–10 PM",
+   "الأربعاء": "12–10 PM",
+   "الخميس": "12–11 PM",
+   "الجمعة": "12–11 PM"
+  },
+  "reviews": [
+   {
+    "author": "Faye AlSufyani",
+    "stars": 5,
+    "text": "Rose always does my nails so good! She pays attention to every little detail and is one of the only people I fully trust with my nails!"
+   },
+   {
+    "author": "Shahd mf",
+    "stars": 5,
+    "text": "Had my nails done with madi she’s amazing, the salon has clean beautiful aesthetic with great service"
+   },
+   {
+    "author": "Maria Anastasakou",
+    "stars": 2,
+    "text": "Great environment.  Not value for money. Its a bit expensive. Low quality of treatment"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/nail_salon.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/stellar-beauty-salon_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/stellar-beauty-salon_2.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "NailSalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/Stellar+Beauty+Salon/data=!4m7!3m6!1s0x3e2f03f21a956a21:0x27b31e395fc51b98!8m2!3d24.7011983!4d46.6770194!16s%2Fg%2F11kbb4lnl2!19sChIJIWqVGvIDLz4RmBvFXzkesyc?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "7418 King Fahd Rd، 4354",
+    "postalCode": "12331"
+   }
+  },
+  "phone_display": "+966 55 675 7718",
+  "h1": "أظافر على المستوى — صالون متخصص في {district}",
+  "services": [
+   {
+    "title": "مانيكير",
+    "text": "تنظيف وتشكيل الأظافر مع العناية بالجلد المحيط، بأدوات معقّمة بالكامل.",
+    "tag": "مانيكير"
+   },
+   {
+    "title": "باديكير",
+    "text": "جلسة عناية كاملة للرجل تخليهم ناعمين ومرتبين.",
+    "tag": "باديكير"
+   },
+   {
+    "title": "تصاميم الأظافر",
+    "text": "رسومات وتصاميم متنوعة تناسب ذوقك والمناسبة.",
+    "tag": "تصاميم"
+   },
+   {
+    "title": "جل اكستنشن",
+    "text": "تركيب أظافر بمواد آمنة وأشكال دقيقة تدوم فترة طويلة.",
+    "tag": "تركيب"
+   }
+  ]
+ },
+ {
+  "slug": "the-protocol-barbershop",
+  "file": "the-protocol-barbershop.html",
+  "name": "The Protocol Barbershop",
+  "niche": "barbershop",
+  "url": "https://riyadh.aidy.site/sa/riyadh/the-protocol-barbershop.html",
+  "phone_intl": "+966553157720",
+  "rating": 4.7,
+  "review_count": 1215,
+  "address": "Anas Ibn Malik Rd, Al Yasmeen, Riyadh 13326, Saudi Arabia",
+  "district": "Al Yasmeen",
+  "niche_name": "صالون حلاقة رجالية",
+  "years": 15,
+  "hero_url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "hours": {
+   "السبت": "12 PM–12 AM",
+   "الأحد": "12 PM–12 AM",
+   "الاثنين": "12 PM–12 AM",
+   "الثلاثاء": "12 PM–12 AM",
+   "الأربعاء": "12 PM–12 AM",
+   "الخميس": "12 PM–12 AM",
+   "الجمعة": "12:30–11:30 PM"
+  },
+  "reviews": [
+   {
+    "author": "FA",
+    "stars": 5,
+    "text": "Great service and very friendly. I’ve had a haircut and a beard trim with John, genuinely speaking, he’s THE BEST and understands the hair type and how to satisfy the customer once done. Highly recommend this barbershop in Riyadh, they are …"
+   },
+   {
+    "author": "A.A",
+    "stars": 4,
+    "text": "Ahmad was good. It can be hard to find parking. I valued being welcomed and asked about my experience by Saudi person."
+   },
+   {
+    "author": "Youssef Alhusseini",
+    "stars": 5,
+    "text": "Ahmed is a great barber. Always professional, friendly, and pays attention to the details. I’m always happy with the haircut and the service. Highly recommend him."
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/barbershop.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/the-protocol-barbershop_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/the-protocol-barbershop_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/the-protocol-barbershop_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/the-protocol-barbershop_4.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/the-protocol-barbershop_5.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "HairSalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/The+Protocol+Barbershop/data=!4m7!3m6!1s0x3e2ee5f960572425:0x840b09db654fc603!8m2!3d24.8259642!4d46.65904!16s%2Fg%2F11tdmkdvlb!19sChIJJSRXYPnlLj4RA8ZPZdsJC4Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Anas Ibn Malik Rd",
+    "postalCode": "13326"
+   }
+  },
+  "phone_display": "+966 55 315 7720",
+  "about_sub": "صالون حلاقة رجالية في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "{district} — {city_ar}"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   }
+  ]
+ },
+ {
+  "slug": "twos-barbershop-صالون-توز",
+  "file": "twos-barbershop-صالون-توز.html",
+  "name": "Two’s Barbershop | صالون توز",
+  "niche": "barbershop",
+  "url": "https://riyadh.aidy.site/sa/riyadh/twos-barbershop-صالون-توز.html",
+  "phone_intl": "+966536350577",
+  "rating": 4.8,
+  "review_count": 833,
+  "address": "حي, Al Hussein Ibn Ali, At Taawun, Riyadh 12475, Saudi Arabia",
+  "district": "At Taawun",
+  "niche_name": "صالون حلاقة رجالية",
+  "years": 15,
+  "hero_url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "hours": {
+   "السبت": "1 PM–1 AM",
+   "الأحد": "1 PM–1 AM",
+   "الاثنين": "1 PM–1 AM",
+   "الثلاثاء": "1 PM–1 AM",
+   "الأربعاء": "1 PM–1 AM",
+   "الخميس": "1 PM–1 AM",
+   "الجمعة": "1 PM–1 AM"
+  },
+  "reviews": [
+   {
+    "author": "mohamad assaad",
+    "stars": 5,
+    "text": "An exceptional experience from start to finish! The place is incredibly elegant, luxurious, and spotlessly clean. The entire team is welcoming, but a special shoutout to Ahmed Azam at the reception for the warm greeting and smooth check-in, …"
+   },
+   {
+    "author": "Fadi Abu Hassan",
+    "stars": 5,
+    "text": "An excellent experience. The reception was wonderful, and the place is top-notch in terms of cleanliness and organization. Special thanks to the talented Abdulrahman; he is a true professional and knew exactly how to give me the haircut I wanted from the very first time. A 10/10 experience and everything was perfect!"
+   },
+   {
+    "author": "Syed Farhan",
+    "stars": 5,
+    "text": "Great experience at the salon! AbdulRahman did an excellent job—professional, friendly, and very attentive to detail. Also, a big thanks to Ahmed Azzam at the reception for being so welcoming and helpful. Highly recommend, and I’ll definitely be back!"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/barbershop.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/twos-barbershop-صالون-توز_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/twos-barbershop-صالون-توز_2.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "HairSalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/Two%E2%80%99s+Barbershop+%7C+%D8%B5%D8%A7%D9%84%D9%88%D9%86+%D8%AA%D9%88%D8%B2%E2%80%AD/data=!4m7!3m6!1s0x3e2efd823972eed1:0xb67f308bb5047fa3!8m2!3d24.7766643!4d46.7054099!16s%2Fg%2F11l5hwfml5!19sChIJ0e5yOYL9Lj4Ro38EtYswf7Y?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "حي",
+    "postalCode": "12475"
+   }
+  },
+  "phone_display": "+966 53 635 0577",
+  "about_sub": "صالون حلاقة رجالية في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   }
+  ]
+ },
+ {
+  "slug": "university-cooperative-center-for-car-maintenance",
+  "file": "university-cooperative-center-for-car-maintenance.html",
+  "name": "University Cooperative Center for Car Maintenance",
+  "niche": "auto_repair",
+  "url": "https://riyadh.aidy.site/sa/riyadh/university-cooperative-center-for-car-maintenance.html",
+  "phone_intl": "+966504123356",
+  "rating": 4.5,
+  "review_count": 470,
+  "address": "7442 Al Riqaq, 7442, Umm Al Hamam Al Gharbi، 2684 الرقاق،, Riyadh 12329, Saudi Arabia",
+  "district": "الرياض",
+  "niche_name": "خدمة صيانة سيارات",
+  "years": 10,
+  "hero_url": "https://pages.aidy.site/hero/university-cooperative-center-for-car-maintenance.jpg",
+  "hours": {
+   "السبت": "8 AM–12 PM , 4–9 PM",
+   "الأحد": "8 AM–12 PM , 4–9 PM",
+   "الاثنين": "8 AM–12 PM , 4–9 PM",
+   "الثلاثاء": "8 AM–12 PM , 4–9 PM",
+   "الأربعاء": "8 AM–12 PM , 4–9 PM",
+   "الخميس": "8 AM–12 PM , 4–9 PM",
+   "الجمعة": "4–9 PM"
+  },
+  "reviews": [
+   {
+    "author": "Peter",
+    "stars": 5,
+    "text": "I recently visited the university cooperative centre and had a very positive experience. The staff was friendly and straightforward, explaining the necessary services without any pressure to upsell. The quality of work was solid, and my car …"
+   },
+   {
+    "author": "Ahti Suvi",
+    "stars": 5,
+    "text": "Personally I am very satisfied with services provided and the pricing. Been servicing my Dodge Durango there, but you will constantly see there's a wide variety of cars that they handle - from an old Fiat Punto to the newest Cadilac …"
+   },
+   {
+    "author": "Emad Dah",
+    "stars": 5,
+    "text": "One of the best workshops in north riyadh\nThey deserve five stars\nFirst thy find exactly what the problem than they give you what should you do …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/university-cooperative-center-for-car-maintenance.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/university-cooperative-center-for-car-maintenance_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/university-cooperative-center-for-car-maintenance_2.jpg",
+    "alt": ""
+   }
+  ],
+  "cta_bg_css": ".cta-section::before{content:\"\";position:absolute;inset:0;background:url('https://pages.aidy.site/hero/university-cooperative-center-for-car-maintenance.jpg') center/cover;opacity:.07}",
+  "jsonld": {
+   "type": "AutoRepair",
+   "sameAs": [
+    "https://www.google.com/maps/place/University+Cooperative+Center+for+Car+Maintenance/data=!4m7!3m6!1s0x3e2f1cfeacdad2e1:0x1ce98e5da7db6202!8m2!3d24.6878101!4d46.6364708!16s%2Fg%2F11c72vfkqx!19sChIJ4dLarP4cLz4RAmLbp12O6Rw?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "7442 Al Riqaq",
+    "postalCode": "12329"
+   }
+  },
+  "services_lead": "خدمات صيانة بمعايير واضحة",
+  "phone_display": "+966 50 412 3356",
+  "usps": [
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "في {district} — {city_ar}"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   }
+  ],
+  "services": [
+   {
+    "title": "صيانة شاملة",
+    "text": "خدمات صيانة متنوعة تناسب كل الموديلات بمعايير واضحة.",
+    "tag": "صيانة"
+   },
+   {
+    "title": "تشخيص أعطال",
+    "text": "فحص دقيق وتحديد سبب العطل قبل أي إصلاح.",
+    "tag": "تشخيص"
+   },
+   {
+    "title": "قطع أصلية",
+    "text": "استخدام قطع ذات جودة معتمدة مع ضمان على الشغل.",
+    "tag": "قطع"
+   },
+   {
+    "title": "التزام بالمواعيد",
+    "text": "التزام بمواعيد التسجيل المتفق عليها.",
+    "tag": "مواعيد"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ما الذي يميّز {name}؟",
+    "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم {name} من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+   },
+   {
+    "q": "كيف أحجز أو أستفسر؟",
+    "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+   },
+   {
+    "q": "أين الموقع بالضبط؟",
+    "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+   },
+   {
+    "q": "ما مواعيد العمل؟",
+    "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+   }
+  ]
+ },
+ {
+  "slug": "unsorso-cafe",
+  "file": "unsorso-cafe.html",
+  "name": "UNSORSO CAFE",
+  "niche": "coffee",
+  "url": "https://riyadh.aidy.site/sa/riyadh/unsorso-cafe.html",
+  "phone_intl": "+966595950090",
+  "rating": 4.7,
+  "review_count": 407,
+  "address": "Olaya St, Al Muruj, Riyadh 12264, Saudi Arabia",
+  "district": "Al Muruj",
+  "niche_name": "كوفي شوب",
+  "hero_url": "https://pages.aidy.site/hero/unsorso-cafe.jpg",
+  "hours": {
+   "السبت": "6 AM–1 AM",
+   "الأحد": "6 AM–1 AM",
+   "الاثنين": "6 AM–1 AM",
+   "الثلاثاء": "6 AM–1 AM",
+   "الأربعاء": "6 AM–1 AM",
+   "الخميس": "6 AM–1 AM",
+   "الجمعة": "12 PM–1 AM"
+  },
+  "reviews": [
+   {
+    "author": "Dr. Abdullah AlHomeadan",
+    "stars": 5,
+    "text": "Great cafe 🍵 that provides coffee, cakes, croissants 🥐, cookies 🍪, and other desserts 🍮 …"
+   },
+   {
+    "author": "Mohammed AlQahtani",
+    "stars": 5,
+    "text": "One of the coffee shop in town approachable staff thanks to barista zuhaib and esmail for excelent work.🫰🏻 …"
+   },
+   {
+    "author": "Captain Mika",
+    "stars": 5,
+    "text": "Amazing atmosphere, great vibes. Moist, chewy delicious cookies and great ice matcha!"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/unsorso-cafe.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_4.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_5.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_6.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_7.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_8.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_9.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_10.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/unsorso-cafe_11.jpg",
+    "alt": ""
+   }
+  ],
+  "cta_bg_css": ".cta-section::before{content:\"\";position:absolute;inset:0;background:url('https://pages.aidy.site/hero/unsorso-cafe.jpg') center/cover;opacity:.07}",
+  "jsonld": {
+   "type": "CafeOrCoffeeShop",
+   "sameAs": [
+    "https://www.google.com/maps/place/UNSORSO+CAFE/data=!4m7!3m6!1s0x3e2ee31afd01d7c7:0x37d0ff42fb5a089f!8m2!3d24.7572805!4d46.6524035!16s%2Fg%2F11k4m8c5vb!19sChIJx9cB_RrjLj4Rnwha-0L_0Dc?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Olaya St",
+    "postalCode": "12264"
+   }
+  },
+  "phone_display": "+966 59 595 0090",
+  "about_sub": "كوفي شوب في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "{district} — {city_ar}"
+   }
+  ]
+ },
+ {
+  "slug": "vog-salon-صالون-فوغ-العليا",
+  "file": "vog-salon-صالون-فوغ-العليا.html",
+  "name": "VOG Salon | صالون فوغ - العليا",
+  "niche": "beauty_salon",
+  "url": "https://riyadh.aidy.site/sa/riyadh/vog-salon-صالون-فوغ-العليا.html",
+  "phone_intl": "+966546831128",
+  "rating": 4.4,
+  "review_count": 840,
+  "address": "King Fahd Rd, Al Olaya, Riyadh 12213, Saudi Arabia",
+  "district": "Al Olaya",
+  "niche_name": "صالون تجميل",
+  "years": 12,
+  "hero_url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+  "hours": {
+   "السبت": "9 AM–9 PM",
+   "الأحد": "Closed",
+   "الاثنين": "Closed",
+   "الثلاثاء": "Closed",
+   "الأربعاء": "9 AM–9 PM",
+   "الخميس": "9 AM–9 PM",
+   "الجمعة": "2–10 PM"
+  },
+  "reviews": [
+   {
+    "author": "Anita Kfoury",
+    "stars": 5,
+    "text": "I loved my hair color! my hair stylist was Elham. She is so friendly, professional, and took the time to understand exactly what i wanted. Much Love <3"
+   },
+   {
+    "author": "Sarah Ehsan",
+    "stars": 1,
+    "text": "it was very nice and the hospitality was amazing i dyed my hair color by lamar and amal they both did an amazing job with my highlights and gave me exactly what i requested"
+   },
+   {
+    "author": "R M",
+    "stars": 5,
+    "text": "Excellent services. I got new haircut today followed by Kerastase treatment.\nI’m so happy and in love with my new look. Thanks to specialist Elham. She is very professional and she recommended the best treatment for my hair type. Also the manager & everyone there are so nice.\nThank you all ♥️"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/vog-salon-صالون-فوغ-العليا_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/vog-salon-صالون-فوغ-العليا_2.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "BeautySalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/VOG+Salon+%7C+%D8%B5%D8%A7%D9%84%D9%88%D9%86+%D9%81%D9%88%D8%BA+-+%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7%E2%80%AD/data=!4m7!3m6!1s0x3e2f032f91d829cb:0x5c3d8ba6f2bd3b82!8m2!3d24.701442!4d46.6800952!16s%2Fg%2F11cn6bgc39!19sChIJyynYkS8DLz4Rgju98qaLPVw?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "King Fahd Rd",
+    "postalCode": "12213"
+   }
+  },
+  "phone_display": "+966 54 683 1128",
+  "usps": [
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   }
+  ]
+ },
+ {
+  "slug": "y97-specialty-coffee",
+  "file": "y97-specialty-coffee.html",
+  "name": "Y97 - Specialty Coffee",
+  "niche": "coffee",
+  "url": "https://riyadh.aidy.site/sa/riyadh/y97-specialty-coffee.html",
+  "phone_intl": "+966557499464",
+  "rating": 4.7,
+  "review_count": 1085,
+  "address": "Prince Nasir Bin Saud Bin Farhan Al Saud St, As Sahafah, Riyadh 13321, Saudi Arabia",
+  "district": "As Sahafah",
+  "niche_name": "كوفي شوب",
+  "hero_url": "https://pages.aidy.site/hero/coffee.jpg",
+  "hours": {
+   "السبت": "12 PM–12 AM",
+   "الأحد": "6 AM–12 AM",
+   "الاثنين": "6 AM–12 AM",
+   "الثلاثاء": "6 AM–12 AM",
+   "الأربعاء": "6 AM–12 AM",
+   "الخميس": "6 AM–12 AM",
+   "الجمعة": "12 PM–12 AM"
+  },
+  "reviews": [
+   {
+    "author": "G Pras",
+    "stars": 4,
+    "text": "Just remember that i had been there to have coffee refreshment with family. Place abit small but coffee is great with nice staffs."
+   },
+   {
+    "author": "Sara",
+    "stars": 5,
+    "text": "OMG! Deserves 10 out of 5 ☹️♥️\nThe coffee and the swissroll cake is like heaven ♥️"
+   },
+   {
+    "author": "Ferlyn Barera",
+    "stars": 5,
+    "text": "The place is amazing its not that big but full of positive vibes. I’ve been in different coffee shop but this is the perfect ☝️ The best flat white 10/10. And also the staff are amazing full of positive vibes and benevolence highly recommended this place they deserve 5⭐️."
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/coffee.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/y97-specialty-coffee_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/y97-specialty-coffee_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/y97-specialty-coffee_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/y97-specialty-coffee_4.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/y97-specialty-coffee_5.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "CafeOrCoffeeShop",
+   "sameAs": [
+    "https://www.google.com/maps/place/Y97+-+Specialty+Coffee/data=!4m7!3m6!1s0x3e2ee5e693a68873:0x850de971b0fcdaed!8m2!3d24.8104463!4d46.6439199!16s%2Fg%2F11n0zjn5gh!19sChIJc4imk-blLj4R7dr8sHHpDYU?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Prince Nasir Bin Saud Bin Farhan Al Saud St",
+    "postalCode": "13321"
+   }
+  },
+  "phone_display": "+966 55 749 9464",
+  "about_sub": "كوفي شوب في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "{district} — {city_ar}"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   }
+  ]
+ },
+ {
+  "slug": "yoush-beauty-salon",
+  "file": "yoush-beauty-salon.html",
+  "name": "Yoush Beauty Salon",
+  "niche": "beauty_salon",
+  "url": "https://riyadh.aidy.site/sa/riyadh/yoush-beauty-salon.html",
+  "phone_intl": "+966555810453",
+  "rating": 4.5,
+  "review_count": 1078,
+  "address": "Ahmad Ibn Ghalib, Ar Rabwah, Riyadh 12816, Saudi Arabia",
+  "district": "Ar Rabwah",
+  "niche_name": "صالون تجميل",
+  "hero_url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+  "hours": {
+   "السبت": "10 AM–10 PM",
+   "الأحد": "10 AM–10 PM",
+   "الاثنين": "10 AM–10 PM",
+   "الثلاثاء": "10 AM–10 PM",
+   "الأربعاء": "10 AM–10 PM",
+   "الخميس": "10 AM–10 PM",
+   "الجمعة": "10 AM–10 PM"
+  },
+  "reviews": [
+   {
+    "author": "Soraya Aiman",
+    "stars": 5,
+    "text": "Sara and arlin was wonderfulll. They gave me my confidence back. The scalp treatment made my scalp feel clean. Sara gave me a marrahh cute haircut tooo. Shes the sweetest girl 🖤 The gloss treatment was good but unfortunately it did not last …"
+   },
+   {
+    "author": "Shroog ‘",
+    "stars": 5,
+    "text": "I had a wonderful experience at Yoush Beauty Salon. The salon is beautiful, clean, and has such a relaxing atmosphere from the moment you walk in. …"
+   },
+   {
+    "author": "B",
+    "stars": 5,
+    "text": "I highly recommend Diana! She is the best nail technician I’ve ever been to. She is incredibly professional, fast, and pays close attention to every detail. Most importantly, she really listens to what you want and makes sure you’re happy …"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/yoush-beauty-salon_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/yoush-beauty-salon_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/yoush-beauty-salon_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/yoush-beauty-salon_4.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "BeautySalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/Yoush+Beauty+Salon/data=!4m7!3m6!1s0x3e2f07ad7b43190f:0x807a90717ab95bc3!8m2!3d24.6887671!4d46.7535374!16s%2Fg%2F11stfr_k2x!19sChIJDxlDe60HLz4Rw1u5enGQeoA?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Ahmad Ibn Ghalib",
+    "postalCode": "12816"
+   }
+  },
+  "phone_display": "+966 55 581 0453",
+  "about_sub": "صالون تجميل في {district} — والأرقام تتحدث عن نفسها",
+  "usps": [
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "{district} — {city_ar}"
+   }
+  ]
+ },
+ {
+  "slug": "باب-الاناقة-للحلاقة-الرجالية-bab-elanaka-barbershop",
+  "file": "باب-الاناقة-للحلاقة-الرجالية-bab-elanaka-barbershop.html",
+  "name": "باب الاناقة للحلاقة الرجالية - Bab ElAnaka Barbershop",
+  "niche": "barbershop",
+  "url": "https://riyadh.aidy.site/sa/riyadh/باب-الاناقة-للحلاقة-الرجالية-bab-elanaka-barbershop.html",
+  "phone_intl": "+966544338624",
+  "rating": 4.9,
+  "review_count": 1012,
+  "address": "Uthman Ibn Affan Rd, King Abdullah Dt., Riyadh 12451, Saudi Arabia",
+  "district": "الرياض",
+  "niche_name": "صالون شعر",
+  "mark": "💈",
+  "hero_url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "hours": {
+   "السبت": "1 PM–12:30 AM",
+   "الأحد": "12:30 PM–12:30 AM",
+   "الاثنين": "12:30 PM–12:30 AM",
+   "الثلاثاء": "12:30 PM–12:30 AM",
+   "الأربعاء": "12:30 PM–12:30 AM",
+   "الخميس": "12:30 PM–12:30 AM",
+   "الجمعة": "1 PM–12:30 AM"
+  },
+  "reviews": [
+   {
+    "author": "Candace Stanick",
+    "stars": 5,
+    "text": "Made a stop to get Hubby’s haircut.  Ashruf was his stylist.  He was treated like a King!  Super clean, efficient and kind Barber Shop.  Said he's never had so much attention on his face!!! They offered myself water, candy & chocolate while …"
+   },
+   {
+    "author": "Zain UL Arfeen",
+    "stars": 5,
+    "text": "In my opinion, without exaggeration, Mohammed Tayel is world-class. His work is excellent and he understands his job well. Just go to him you don’t need to explain anything, he already knows"
+   },
+   {
+    "author": "Prabhat Ghimire",
+    "stars": 4,
+    "text": "Bab Elanaka Barber Shop in Riyadh is fantastic, and Ashraf excels with hair styling. Highly recommend!"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/barbershop.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/باب-الاناقة-للحلاقة-الرجالية-bab-elanaka-barbershop_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/باب-الاناقة-للحلاقة-الرجالية-bab-elanaka-barbershop_2.jpg",
+    "alt": ""
+   }
+  ],
+  "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 52px;background:#0b0d11;color:#fff;overflow:hidden}",
+  "jsonld": {
+   "type": "HairSalon",
+   "sameAs": [
+    "https://www.google.com/maps/place/%D8%A8%D8%A7%D8%A8+%D8%A7%D9%84%D8%A7%D9%86%D8%A7%D9%82%D8%A9+%D9%84%D9%84%D8%AD%D9%84%D8%A7%D9%82%D8%A9+%D8%A7%D9%84%D8%B1%D8%AC%D8%A7%D9%84%D9%8A%D8%A9+-+Bab+ElAnaka+Barbershop%E2%80%AD/data=!4m7!3m6!1s0x3e2f03ef673dadc3:0x6d6332e2c3c88b17!8m2!3d24.7503429!4d46.7224741!16s%2Fg%2F11tx68chtf!19sChIJw609Z-8DLz4RF4vIw-IyY20?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Uthman Ibn Affan Rd",
+    "postalCode": "12451"
+   }
+  },
+  "services_lead": "عناية شاملة بالشعر على إيد فريق مدرّب",
+  "phone_display": "+966 54 433 8624",
+  "h1": "صالون شعر بيغير شكلك بالكامل في {district}",
+  "usps": [
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   }
+  ],
+  "services": [
+   {
+    "title": "قص وتصفيف الشعر",
+    "text": "قصات مدروسة تناسب شكل الوجه ونوع الشعر، مع تصفيف نهائي باحتراف.",
+    "tag": "قص وتصفيف"
+   },
+   {
+    "title": "صباغة وهاي لايت",
+    "text": "ألوان وصبغات بدرجات متنوعة باستخدام منتجات آمنة تحافظ على صحة الشعر.",
+    "tag": "صباغة"
+   },
+   {
+    "title": "بروتين وكيراتين",
+    "text": "علاجات تقوية وتنعيم للشعر التالف تخليه ناعم ولامع من أول مرة.",
+    "tag": "علاجات"
+   },
+   {
+    "title": "مناسبات وسيشوار",
+    "text": "تسريحات للمناسبات والأفراح بتنفيذ يدوم طول المناسبة.",
+    "tag": "مناسبات"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "ما الذي يميّز {name}؟",
+    "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم {name} من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+   },
+   {
+    "q": "كيف أحجز أو أستفسر؟",
+    "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+   },
+   {
+    "q": "أين الموقع بالضبط؟",
+    "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+   },
+   {
+    "q": "ما مواعيد العمل؟",
+    "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+   }
+  ],
+  "cta_heading": "شعرك يستحق العناية — تواصل معنا"
+ },
+ {
+  "slug": "جينيرال-كارز-لصيانة-السيارات-الرياض-صناعية-العاصمة-مخرج-٢٨",
+  "file": "جينيرال-كارز-لصيانة-السيارات-الرياض-صناعية-العاصمة-مخرج-٢٨.html",
+  "name": "جينيرال كارز لصيانة السيارات - الرياض - صناعية العاصمة - مخرج ٢٨",
+  "niche": "auto_repair",
+  "url": "https://riyadh.aidy.site/sa/riyadh/جينيرال-كارز-لصيانة-السيارات-الرياض-صناعية-العاصمة-مخرج-٢٨.html",
+  "phone_intl": "+966580072027",
+  "rating": 4.8,
+  "review_count": 136,
+  "address": "Salih Al Hariri Al Afandi St, RKAB3080, Riyadh Saudi Arabia",
+  "district": "الرياض",
+  "niche_name": "ورشة صيانة سيارات",
+  "hero_url": "https://pages.aidy.site/hero/auto_repair.jpg",
+  "hours": {
+   "السبت": "8 AM–9:30 PM",
+   "الأحد": "8 AM–9:30 PM",
+   "الاثنين": "8 AM–9:30 PM",
+   "الثلاثاء": "8 AM–9:30 PM",
+   "الأربعاء": "8 AM–9:30 PM",
+   "الخميس": "8 AM–9:30 PM",
+   "الجمعة": "3–9 PM"
+  },
+  "reviews": [
+   {
+    "author": "Mohd Mujeeb",
+    "stars": 5,
+    "text": "This work shop is very good work work is good thank you for general cars and mechanic tauhid and nadeem very good worker\nI am  happy"
+   },
+   {
+    "author": "Ramshad Ramshu",
+    "stars": 5,
+    "text": "this work shop is  very good\nmy car work done\nthanks for ganeral car"
+   },
+   {
+    "author": "Mohammed 1",
+    "stars": 5,
+    "text": "Excellent work and reasonable price. Diesel cars. Excellent technician and supervisor, Nadeem, and technician Bashed."
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/auto_repair.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/جينيرال-كارز-لصيانة-السيارات-الرياض-صناعية-العاصمة-مخرج-٢٨_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/جينيرال-كارز-لصيانة-السيارات-الرياض-صناعية-العاصمة-مخرج-٢٨_2.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/جينيرال-كارز-لصيانة-السيارات-الرياض-صناعية-العاصمة-مخرج-٢٨_3.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/جينيرال-كارز-لصيانة-السيارات-الرياض-صناعية-العاصمة-مخرج-٢٨_4.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/جينيرال-كارز-لصيانة-السيارات-الرياض-صناعية-العاصمة-مخرج-٢٨_5.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/جينيرال-كارز-لصيانة-السيارات-الرياض-صناعية-العاصمة-مخرج-٢٨_6.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "AutoRepair",
+   "sameAs": [
+    "https://www.google.com/maps/place/%D8%AC%D9%8A%D9%86%D9%8A%D8%B1%D8%A7%D9%84+%D9%83%D8%A7%D8%B1%D8%B2+%D9%84%D8%B5%D9%8A%D8%A7%D9%86%D8%A9+%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA+-+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+-+%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9+%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9+-+%D9%85%D8%AE%D8%B1%D8%AC+%D9%A2%D9%A8%E2%80%AD/data=!4m7!3m6!1s0x3e2f1b005714a553:0x542b4b961e83ba76!8m2!3d24.5725957!4d46.6052481!16s%2Fg%2F11yz1kk0x6!19sChIJU6UUVwAbLz4RdrqDHpZLK1Q?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "Salih Al Hariri Al Afandi St"
+   }
+  },
+  "phone_display": "+966 58 007 2027",
+  "usps": [
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "في {district} — {city_ar}"
+   },
+   {
+    "icon": "🤝",
+    "title": "خدمة محترمة",
+    "text": "استقبال وتعامل على مستوى"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "⭐",
+    "title": "تقييم {rating} على Google",
+    "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+   }
+  ]
+ },
+ {
+  "slug": "مركز-يوروفيكس-لصيانه-السيارات-euro-fix-car-service",
+  "file": "مركز-يوروفيكس-لصيانه-السيارات-euro-fix-car-service.html",
+  "name": "مركز يوروفيكس لصيانه السيارات | Euro Fix car service",
+  "niche": "auto_repair",
+  "url": "https://riyadh.aidy.site/sa/riyadh/مركز-يوروفيكس-لصيانه-السيارات-euro-fix-car-service.html",
+  "phone_intl": "+966558368211",
+  "rating": 4.5,
+  "review_count": 54,
+  "address": "6312 King Abdulaziz Rd, RRRA2794، 2794، Riyadh 13338, Saudi Arabia",
+  "district": "الرياض",
+  "niche_name": "ورشة صيانة سيارات",
+  "hero_url": "https://pages.aidy.site/hero/auto_repair.jpg",
+  "hours": {
+   "السبت": "10 AM–9 PM",
+   "الأحد": "10 AM–9 PM",
+   "الاثنين": "10 AM–9 PM",
+   "الثلاثاء": "10 AM–9 PM",
+   "الأربعاء": "10 AM–9 PM",
+   "الخميس": "10 AM–9 PM",
+   "الجمعة": "Closed"
+  },
+  "reviews": [
+   {
+    "author": "Wei Lung Lim",
+    "stars": 5,
+    "text": "Laith very courteous in explaining the issues of my car. They fix most European cars"
+   },
+   {
+    "author": "mohamed gharraf",
+    "stars": 5,
+    "text": "Very professional technician and very welcome management"
+   }
+  ],
+  "photos": [
+   {
+    "url": "https://pages.aidy.site/hero/auto_repair.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/مركز-يوروفيكس-لصيانه-السيارات-euro-fix-car-service_1.jpg",
+    "alt": ""
+   },
+   {
+    "url": "https://pages.aidy.site/stock/مركز-يوروفيكس-لصيانه-السيارات-euro-fix-car-service_2.jpg",
+    "alt": ""
+   }
+  ],
+  "jsonld": {
+   "type": "AutoRepair",
+   "sameAs": [
+    "https://www.google.com/maps/place/%D9%85%D8%B1%D9%83%D8%B2+%D9%8A%D9%88%D8%B1%D9%88%D9%81%D9%8A%D9%83%D8%B3+%D9%84%D8%B5%D9%8A%D8%A7%D9%86%D9%87+%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA+%7C+Euro+Fix+car+service%E2%80%AD/data=!4m7!3m6!1s0x3e2ee5003901c59d:0x468d663dfe1d1b68!8m2!3d24.8708869!4d46.6181724!16s%2Fg%2F11yq2l3kk8!19sChIJncUBOQDlLj4RaBsd_j1mjUY?authuser=0&hl=en&g_ep=EgoyMDI2MTAwNy4wIJJjKgBIAVAD&rclk=1"
+   ],
+   "address": {
+    "addressLocality": "Riyadh",
+    "addressCountry": "SA",
+    "streetAddress": "6312 King Abdulaziz Rd",
+    "postalCode": "13338"
+   }
+  },
+  "phone_display": "+966 55 836 8211",
+  "usps": [
+   {
+    "icon": "🧼",
+    "title": "نظافة وترتيب",
+    "text": "اللي بيميز المكان في كلام العملاء"
+   },
+   {
+    "icon": "🕒",
+    "title": "مواعيد واضحة",
+    "text": "اعرف مواعيد العمل كاملة قبل ما تروح"
+   },
+   {
+    "icon": "📍",
+    "title": "موقع سهل الوصول",
+    "text": "في {district} — {city_ar}"
+   },
+   {
+    "icon": "📞",
+    "title": "تواصل مباشر",
+    "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+   }
+  ]
+ }
+]

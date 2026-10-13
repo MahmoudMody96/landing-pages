@@ -1,0 +1,55 @@
+__pycache__/
+*.pyc
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.venv/
+venv/
+
+# --- Do NOT publish: the release flow runs `git add -A` on an orphan branch
+# and force-pushes it to the PUBLIC repo (MahmoudMody96/landing-pages), so
+# anything not ignored here ends up world-readable. These files carry the
+# commercial playbook (outreach script + pricing) and client phone numbers.
+data/*.xlsx
+data/*.bak-*.xlsx
+data/outreach_*.json
+data/*arabic_review*.json
+
+# Agent workspace memory (project notes, review logs) — never shipped.
+.workbuddy-ai/
+
+# Regenerable dev artifacts (produced by tools/audit_heroes.py,
+# tools/fetch_hero_cands.py, tools/gen_outreach.py). Large, local-only, and
+# NOT needed by the image build. The release flow runs `git add -A` on an
+# orphan branch, so ignoring them keeps multi-MB review images and the
+# outreach kit off the PUBLIC repo if any tool is re-run.
+# NOTE: hero_audit/ (dir) is ignored, but hero_audit.json (manifest read by
+# tools/inject_seo.py) stays tracked — the trailing slash is deliberate.
+hero_audit/
+assets/hero_candidates/
+hero_candidates.json
+prospects/
+
+# Bootstrap intermediate for the page template: tools/extract_pages.py reads
+# every page on disk into this file and tools/build_niches.py turns it into
+# templates/niches/*.json + data/businesses.json. It is regenerable from the
+# pages themselves, and re-running the bootstrap OVERWRITES data/businesses.json,
+# so it is kept local-only to make sure the hand-editable data file is the one
+# source of truth.
+data/extracted.json
+
+# Internal report/pipeline output (executive + incident reports, deploy notes).
+# The release flow runs `git add -A` on an orphan branch and force-pushes it to
+# the PUBLIC repo, so anything the plugin writes here stays local-only.
+output/
+
+# Dashboard operator state (probe history + event log) — local only.
+data/dashboard_state.json
+
+# Staging dirs of the dashboard's build simulation (tools/dashboard.py).
+# If the server's cleanup is ever blocked (WorkBuddy safe-delete guard) a
+# leftover can sit here untracked — `git add -A` on the orphan release branch
+# would ship it. Ignore the prefix, not just the one dir.
+lp-sim-*/

@@ -1,0 +1,44 @@
+{
+  "coffee": {
+    "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=2560&q=85&fm=jpg",
+    "local": "assets/hero/coffee.jpg",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 614698
+  },
+  "barbershop": {
+    "url": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=2560&q=85&fm=jpg",
+    "local": "assets/hero/barbershop.jpg",
+    "width": 2560,
+    "height": 1700,
+    "bytes": 970403
+  },
+  "beauty_salon": {
+    "url": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=2560&q=85&fm=jpg",
+    "local": "assets/hero/beauty_salon.jpg",
+    "width": 2560,
+    "height": 1920,
+    "bytes": 761912
+  },
+  "nail_salon": {
+    "url": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=2560&q=85&fm=jpg",
+    "local": "assets/hero/nail_salon.jpg",
+    "width": 2560,
+    "height": 1777,
+    "bytes": 620811
+  },
+  "gym": {
+    "url": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=2560&q=85&fm=jpg",
+    "local": "assets/hero/gym.jpg",
+    "width": 2560,
+    "height": 1707,
+    "bytes": 640359
+  },
+  "auto_repair": {
+    "url": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=2560&q=85&fm=jpg",
+    "local": "assets/hero/auto_repair.jpg",
+    "width": 2560,
+    "height": 1709,
+    "bytes": 603161
+  }
+}

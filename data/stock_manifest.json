@@ -1,0 +1,96 @@
+{
+  "carve-coffee-bar": {
+    "niche": "coffee",
+    "urls": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1600&q=80",
+      "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=1600&q=80",
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80"
+    ]
+  },
+  "باب-الاناقة-للحلاقة-الرجالية-bab-elanaka-barbershop": {
+    "niche": "barbershop",
+    "urls": [
+      "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1600&q=80",
+      "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1600&q=80",
+      "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=1600&q=80"
+    ]
+  },
+  "vog-salon-صالون-فوغ-العليا": {
+    "niche": "beauty_salon",
+    "urls": [
+      "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1600&q=80",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=1600&q=80",
+      "https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=1600&q=80"
+    ]
+  },
+  "twos-barbershop-صالون-توز": {
+    "niche": "barbershop",
+    "urls": [
+      "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1600&q=80",
+      "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1600&q=80",
+      "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=1600&q=80"
+    ]
+  },
+  "harmonic-barbershop": {
+    "niche": "barbershop",
+    "urls": [
+      "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1600&q=80",
+      "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1600&q=80",
+      "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=1600&q=80"
+    ]
+  },
+  "ik-coffee-downtown": {
+    "niche": "coffee",
+    "urls": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1600&q=80",
+      "https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=1600&q=80",
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80"
+    ]
+  },
+  "stellar-beauty-salon": {
+    "niche": "nail_salon",
+    "urls": [
+      "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=1600&q=80",
+      "https://images.unsplash.com/photo-1610992015732-2449b76344bc?w=1600&q=80",
+      "https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=1600&q=80"
+    ]
+  },
+  "fitness-star-gym": {
+    "niche": "gym",
+    "urls": [
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&q=80",
+      "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1600&q=80",
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600&q=80"
+    ]
+  },
+  "j-f-revolution-ems-justfit-fitness": {
+    "niche": "gym",
+    "urls": [
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&q=80",
+      "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1600&q=80",
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600&q=80"
+    ]
+  },
+  "almultaka-ladies-center-fitness": {
+    "niche": "gym",
+    "urls": [
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&q=80",
+      "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1600&q=80",
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600&q=80"
+    ]
+  },
+  "future-of-trust-car-workshop-shafi": {
+    "niche": "auto_repair",
+    "urls": [
+      "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600&q=80",
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600&q=80"
+    ]
+  },
+  "car-repairs": {
+    "niche": "auto_repair",
+    "urls": [
+      "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600&q=80",
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600&q=80"
+    ]
+  }
+}

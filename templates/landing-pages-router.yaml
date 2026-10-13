@@ -1,0 +1,72 @@
+# LEGACY — manual (non-Coolify) Traefik setup only. With Coolify, routing and
+# TLS come from the Coolify app itself; this file is NOT read. Kept so a
+# hand-run container can be wired without reinventing the routers.
+# Landing pages platform — country/city landing page host.
+#
+# Same shape as edu-demos-router.yaml: self-contained file provider router,
+# own middlewares, own service, zero references into the docker provider
+# (guide §3 rule 3). priority 10 beats the aidy-wildcard.yaml priority-1
+# catch-all, so only pages.aidy.site lands here.
+#
+# Backend: the `landing-pages` nginx container on the `coolify` network,
+# addressed by container name (Docker DNS) — no IP to maintain.
+http:
+  middlewares:
+    lp-redirect:
+      redirectscheme:
+        scheme: https
+        permanent: true
+    lp-gzip:
+      compress: {}
+
+  routers:
+    # ---- index / contact sheet (root of the platform) ----
+    lp-http:
+      rule: "Host(`pages.aidy.site`)"
+      entryPoints:
+        - http
+      service: landing-pages
+      middlewares:
+        - lp-redirect
+      priority: 10
+    lp-https:
+      rule: "Host(`pages.aidy.site`)"
+      entryPoints:
+        - https
+      service: landing-pages
+      middlewares:
+        - lp-gzip
+      priority: 10
+      tls: &lp-tls
+        certResolver: cfdns
+        domains:
+          - main: "aidy.site"
+            sans:
+              - "*.aidy.site"
+
+    # ---- Riyadh, Saudi Arabia (30 pages) ----
+    lp-riyadh-http:
+      rule: "Host(`riyadh.aidy.site`)"
+      entryPoints:
+        - http
+      service: landing-pages
+      middlewares:
+        - lp-redirect
+      priority: 20
+    lp-riyadh-https:
+      rule: "Host(`riyadh.aidy.site`)"
+      entryPoints:
+        - https
+      service: landing-pages
+      middlewares:
+        - lp-gzip
+      priority: 20
+      tls: *lp-tls
+
+  services:
+    landing-pages:
+      loadBalancer:
+        servers:
+          # Container name on the `coolify` network — Docker DNS resolves it,
+          # so no hardcoded IP to re-check after a container recreate.
+          - url: "http://landing-pages:80"

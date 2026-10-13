@@ -1,0 +1,242 @@
+[
+ {
+  "idx": 1,
+  "name": "Almultaka Ladies Center Fitness",
+  "slug": "almultaka-ladies-center-fitness",
+  "url": "https://pages.aidy.site/hero/gym.jpg",
+  "stock": true,
+  "niche": "gym"
+ },
+ {
+  "idx": 2,
+  "name": "Calibrated Coffee Roasters",
+  "slug": "calibrated-coffee-roasters",
+  "url": "https://pages.aidy.site/hero/calibrated-coffee-roasters.jpg",
+  "stock": false,
+  "niche": "calibrated-coffee-roasters"
+ },
+ {
+  "idx": 3,
+  "name": "Car Repairs",
+  "slug": "car-repairs",
+  "url": "https://pages.aidy.site/hero/auto_repair.jpg",
+  "stock": true,
+  "niche": "auto_repair"
+ },
+ {
+  "idx": 4,
+  "name": "CARVE COFFEE BAR",
+  "slug": "carve-coffee-bar",
+  "url": "https://pages.aidy.site/hero/coffee.jpg",
+  "stock": true,
+  "niche": "coffee"
+ },
+ {
+  "idx": 5,
+  "name": "ED salon Hair & Nail.- صالون اي دي",
+  "slug": "ed-salon-hair-nail-صالون-اي-دي",
+  "url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+  "stock": true,
+  "niche": "beauty_salon"
+ },
+ {
+  "idx": 6,
+  "name": "fitness star gym",
+  "slug": "fitness-star-gym",
+  "url": "https://pages.aidy.site/hero/gym.jpg",
+  "stock": true,
+  "niche": "gym"
+ },
+ {
+  "idx": 7,
+  "name": "Five Minutes Barbershop صالون فايف منتس للحلاقة",
+  "slug": "five-minutes-barbershop-صالون-فايف-منتس-للحلاقة",
+  "url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "stock": true,
+  "niche": "barbershop"
+ },
+ {
+  "idx": 8,
+  "name": "FUTURE OF TRUST Car Workshop - Shafi",
+  "slug": "future-of-trust-car-workshop-shafi",
+  "url": "https://pages.aidy.site/hero/auto_repair.jpg",
+  "stock": true,
+  "niche": "auto_repair"
+ },
+ {
+  "idx": 9,
+  "name": "Gedeb",
+  "slug": "gedeb",
+  "url": "https://pages.aidy.site/hero/coffee.jpg",
+  "stock": true,
+  "niche": "coffee"
+ },
+ {
+  "idx": 10,
+  "name": "Hair lab Barbershop & Spa | صالون وحلاق هير لاب للحلاقة والسبا",
+  "slug": "hair-lab-barbershop-spa-صالون-وحلاق-هير-لاب-للحلاقة-والسبا",
+  "url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "stock": true,
+  "niche": "barbershop"
+ },
+ {
+  "idx": 11,
+  "name": "HARMONIC BARBERSHOP",
+  "slug": "harmonic-barbershop",
+  "url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "stock": true,
+  "niche": "barbershop"
+ },
+ {
+  "idx": 12,
+  "name": "Holic Beauty Salon (Nailsholic) سابقاً",
+  "slug": "holic-beauty-salon-nailsholic-سابقا",
+  "url": "https://pages.aidy.site/hero/nail_salon.jpg",
+  "stock": true,
+  "niche": "nail_salon"
+ },
+ {
+  "idx": 13,
+  "name": "IK coffee Downtown",
+  "slug": "ik-coffee-downtown",
+  "url": "https://pages.aidy.site/hero/coffee.jpg",
+  "stock": true,
+  "niche": "coffee"
+ },
+ {
+  "idx": 14,
+  "name": "iN2Fitness - Al Arid Men",
+  "slug": "in2fitness-al-arid-men",
+  "url": "https://pages.aidy.site/hero/gym.jpg",
+  "stock": true,
+  "niche": "gym"
+ },
+ {
+  "idx": 15,
+  "name": "J. F. REVOLUTION EMS Justfit Fitness",
+  "slug": "j-f-revolution-ems-justfit-fitness",
+  "url": "https://pages.aidy.site/hero/gym.jpg",
+  "stock": true,
+  "niche": "gym"
+ },
+ {
+  "idx": 16,
+  "name": "Java Time",
+  "slug": "java-time",
+  "url": "https://pages.aidy.site/hero/coffee.jpg",
+  "stock": true,
+  "niche": "coffee"
+ },
+ {
+  "idx": 17,
+  "name": "Ombre beauty salon",
+  "slug": "ombre-beauty-salon",
+  "url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+  "stock": true,
+  "niche": "beauty_salon"
+ },
+ {
+  "idx": 18,
+  "name": "Powerlife Gym",
+  "slug": "powerlife-gym",
+  "url": "https://pages.aidy.site/hero/gym.jpg",
+  "stock": true,
+  "niche": "gym"
+ },
+ {
+  "idx": 19,
+  "name": "SPORTTYPE GYM",
+  "slug": "sporttype-gym",
+  "url": "https://pages.aidy.site/hero/gym.jpg",
+  "stock": true,
+  "niche": "gym"
+ },
+ {
+  "idx": 20,
+  "name": "Stellar Beauty Salon",
+  "slug": "stellar-beauty-salon",
+  "url": "https://pages.aidy.site/hero/nail_salon.jpg",
+  "stock": true,
+  "niche": "nail_salon"
+ },
+ {
+  "idx": 21,
+  "name": "The Protocol Barbershop",
+  "slug": "the-protocol-barbershop",
+  "url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "stock": true,
+  "niche": "barbershop"
+ },
+ {
+  "idx": 22,
+  "name": "Two’s Barbershop | صالون توز",
+  "slug": "twos-barbershop-صالون-توز",
+  "url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "stock": true,
+  "niche": "barbershop"
+ },
+ {
+  "idx": 23,
+  "name": "University Cooperative Center for Car Maintenance",
+  "slug": "university-cooperative-center-for-car-maintenance",
+  "url": "https://pages.aidy.site/hero/university-cooperative-center-for-car-maintenance.jpg",
+  "stock": false,
+  "niche": "university-cooperative-center-for-car-maintenance"
+ },
+ {
+  "idx": 24,
+  "name": "UNSORSO CAFE",
+  "slug": "unsorso-cafe",
+  "url": "https://pages.aidy.site/hero/unsorso-cafe.jpg",
+  "stock": false,
+  "niche": "unsorso-cafe"
+ },
+ {
+  "idx": 25,
+  "name": "VOG Salon | صالون فوغ - العليا",
+  "slug": "vog-salon-صالون-فوغ-العليا",
+  "url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+  "stock": true,
+  "niche": "beauty_salon"
+ },
+ {
+  "idx": 26,
+  "name": "Y97 - Specialty Coffee",
+  "slug": "y97-specialty-coffee",
+  "url": "https://pages.aidy.site/hero/coffee.jpg",
+  "stock": true,
+  "niche": "coffee"
+ },
+ {
+  "idx": 27,
+  "name": "Yoush Beauty Salon",
+  "slug": "yoush-beauty-salon",
+  "url": "https://pages.aidy.site/hero/beauty_salon.jpg",
+  "stock": true,
+  "niche": "beauty_salon"
+ },
+ {
+  "idx": 28,
+  "name": "باب الاناقة للحلاقة الرجالية - Bab ElAnaka Barbershop",
+  "slug": "باب-الاناقة-للحلاقة-الرجالية-bab-elanaka-barbershop",
+  "url": "https://pages.aidy.site/hero/barbershop.jpg",
+  "stock": true,
+  "niche": "barbershop"
+ },
+ {
+  "idx": 29,
+  "name": "جينيرال كارز لصيانة السيارات - الرياض - صناعية العاصمة - مخرج ٢٨",
+  "slug": "جينيرال-كارز-لصيانة-السيارات-الرياض-صناعية-العاصمة-مخرج-٢٨",
+  "url": "https://pages.aidy.site/hero/auto_repair.jpg",
+  "stock": true,
+  "niche": "auto_repair"
+ },
+ {
+  "idx": 30,
+  "name": "مركز يوروفيكس لصيانه السيارات | Euro Fix car service",
+  "slug": "مركز-يوروفيكس-لصيانه-السيارات-euro-fix-car-service",
+  "url": "https://pages.aidy.site/hero/auto_repair.jpg",
+  "stock": true,
+  "niche": "auto_repair"
+ }
+]

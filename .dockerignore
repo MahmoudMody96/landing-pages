@@ -1,0 +1,9 @@
+# Keep the Docker build context lean: binaries and history the image
+# never needs. (The image gets its images from assets/hero + assets/stock.)
+.git/
+# Regenerable dev artifacts (tools/audit_heroes.py, tools/fetch_hero_cands.py).
+# Not in the repo normally, but ignored defensively so re-running those tools
+# can never bloat the build context.
+hero_audit/
+assets/hero_candidates/
+data/*.xlsx

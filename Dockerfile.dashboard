@@ -1,0 +1,29 @@
+# Dashboard — password-protected operator console (dash.aidy.site).
+#
+# Coolify: new Application -> "Dockerfile" deploy type on the PUBLIC repo,
+#   Dockerfile location: /Dockerfile.dashboard, Port: 8765,
+#   Health check path: /healthz, domain: dash.aidy.site (TLS via Coolify).
+# Env (all in Coolify UI, never in the repo):
+#   REQUIRE_AUTH=1, DASHBOARD_PASSWORD, DASHBOARD_SECRET,
+#   GIT_SSH_KEY (deploy key, WRITE on the private repo),
+#   GIT_SSH_KEY_PUBLIC (deploy key, WRITE on the public repo),
+#   COOLIFY_TOKEN (for in-panel deploys), LP_APP_UUID (default set in code).
+#
+# The image carries no data: the entrypoint clones the PRIVATE repo at
+# runtime (full history, so release.sh push works) and serves it.
+FROM python:3.12-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+      git bash openssh-client \
+ && rm -rf /var/lib/apt/lists/* \
+ && pip install --no-cache-dir openpyxl
+
+WORKDIR /srv
+COPY docker/entrypoint-dash.sh ./entrypoint.sh
+
+EXPOSE 8765
+
+HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 \
+  CMD python3 -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8765/healthz', timeout=4)"
+
+ENTRYPOINT ["bash", "./entrypoint.sh"]

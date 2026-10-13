@@ -1,0 +1,17 @@
+name: checks
+on:
+  push:
+  pull_request:
+
+jobs:
+  roundtrip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: pages regenerate byte-for-byte
+        run: python tools/gen_pages.py --check
+      - name: no hotlinked images
+        run: python tools/localize_images.py --check

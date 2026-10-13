@@ -1,0 +1,113 @@
+{
+ "name": "auto_repair",
+ "hero": "/hero/auto_repair.jpg",
+ "gallery_prefix": "auto_repair",
+ "mark": "🔧",
+ "jsonld_type": "AutoRepair",
+ "city_ar": "الرياض",
+ "theme_css": ":root{\n  --primary:#1e6091;\n  --primary-dark:#0d3554;\n  --accent:#38bdf8;\n  --bg:#ffffff;\n  --card:#f8f9fb;\n  --text:#15181e;\n  --muted:#6b7280;\n  --border:#e5e7eb;\n  --wa:#25D366;\n  --ink:#0f1216;\n}",
+ "hero_css": ".hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:100px 0 48px;background:#111;color:#fff;overflow:hidden}",
+ "cta_bg_css": ".cta-section::before{content:\"\";position:absolute;inset:0;background:url('https://pages.aidy.site/hero/auto_repair.jpg') center/cover;opacity:.07}",
+ "page_title": "{name} — {niche_name} في {district}، {city_ar} | تقييم {rating}★",
+ "og_title": "{name} — {niche_name} في {district}، {city_ar}",
+ "meta_desc": "{name} — {niche_name} في {district} ب{city_ar}. تقييم {rating}★ من {reviews_fmt} تقييم على Google. العنوان، المواعيد، والتقييمات الحقيقية.",
+ "og_desc": "{name} — {niche_name} في {district} ب{city_ar}. تقييم {rating}★ من {reviews_fmt} تقييم على Google. العنوان، المواعيد، والتقييمات الحقيقية.",
+ "og_image": "{hero_url}",
+ "h1": "{name} — صيانة سيارات تثق بها في {district}",
+ "hero_tag": "في {district} ب{city_ar} — {niche_name} بتقييم {rating}★ من {reviews_fmt} تقييم حقيقي على Google.",
+ "about_sub": "{niche_name} في {city_ar} — والأرقام تتحدث عن نفسها",
+ "about_heading": "عن {name}",
+ "about_html": "<p><strong>{name}</strong> من الأماكن المعروفة في مجال <strong>{niche_name}</strong> في {city_ar} — والدليل على ذلك <strong>{reviews_fmt} تقييم</strong> على Google Maps بمتوسط <strong>{rating} من 5</strong>. هذا الرقم ليس من حملة إعلانية، بل من زوّار حقيقيين قيّموا المكان بصراحة.</p><p>يتحدث العملاء في تقييماتهم عن أمور ملموسة: جودة العمل، والنظافة، والتعامل الراقي، والاهتمام بالتفاصيل الصغيرة التي تصنع الفرق. جمعنا لك في هذه الصفحة كل ما تحتاجه قبل الزيارة: الصور الحقيقية، والعنوان التفصيلي، ومواعيد العمل الكاملة، والتقييمات بنصّها دون أي تعديل.</p>",
+ "cta_heading": "سيارتك تحتاج صيانة؟ تواصل معنا واحصل على عرض سعر",
+ "cta_text": "تواصل مع {name} عبر الواتساب أو الاتصال — وسيردّون عليك مباشرة.",
+ "wa_message": "مرحباً {name}، رأيت صفحتكم على الإنترنت وأرغب بالاستفسار 👋",
+ "nav_services": "خدماتنا",
+ "services_heading": "خدماتنا",
+ "services_lead": "من الصيانة الدورية للتشخيص — بشفافية كاملة",
+ "years": 7,
+ "usps": [
+  {
+   "icon": "⭐",
+   "title": "تقييم {rating} على Google",
+   "text": "{reviews_fmt} عميل قيّم التجربة فعلياً"
+  },
+  {
+   "icon": "📞",
+   "title": "تواصل مباشر",
+   "text": "كلمهم على الواتساب أو الاتصال في أي وقت"
+  },
+  {
+   "icon": "🧼",
+   "title": "نظافة وترتيب",
+   "text": "اللي بيميز المكان في كلام العملاء"
+  },
+  {
+   "icon": "📍",
+   "title": "موقع سهل الوصول",
+   "text": "في {district} — {city_ar}"
+  }
+ ],
+ "services": [
+  {
+   "title": "صيانة دورية",
+   "text": "صيانة شاملة بجدول واضح تحافظ على سيارتك وتطيل عمرها.",
+   "tag": "صيانة"
+  },
+  {
+   "title": "ميكانيكا",
+   "text": "تشخيص دقيق للأعطال وإصلاحها على إيد فنيين ذوي خبرة.",
+   "tag": "ميكانيكا"
+  },
+  {
+   "title": "فحص كمبيوتر",
+   "text": "فحص إلكتروني شامل بأجهزة حديثة يكشف أي عطل قبل ما يكبر.",
+   "tag": "فحص"
+  },
+  {
+   "title": "شفافية في الأسعار",
+   "text": "عرض واضح للتكاليف قبل بدء الشغل — بدون مفاجآت.",
+   "tag": "شفافية"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "ما الذي يميّز {name}؟",
+   "a": "التقييمات على Google Maps بتتكلم عن نفسها — تقييم {name} من عملاء حقيقيين زاروا المكان فعلاً. التفاصيل كلها متاحة في الصفحة دي."
+  },
+  {
+   "q": "كيف أحجز أو أستفسر؟",
+   "a": "بكل سهولة: اضغط زر الواتساب أو الاتصال في الصفحة — وسيتواصلون معك مباشرة."
+  },
+  {
+   "q": "أين الموقع بالضبط؟",
+   "a": "العنوان الكامل موجود في قسم \"الموقع\" فوق، مع خريطة توصلّك للمكان بضغطة واحدة."
+  },
+  {
+   "q": "ما مواعيد العمل؟",
+   "a": "مواعيد العمل الكاملة (7 أيام) موجودة في قسم \"عنّا\" مع تمييز يوم اليوم — وإذا تغيّر شيء، اسألهم عبر الواتساب."
+  },
+  {
+   "q": "هل أحصل على عرض سعر قبل بدء العمل؟",
+   "a": "نعم — الشفافية في التكلفة من أساسياتهم، وسيعرضون عليك التقدير قبل أي إصلاح."
+  }
+ ],
+ "reviews": [],
+ "photos": [
+  {
+   "url": "{hero_url}",
+   "alt": ""
+  },
+  {
+   "url": "https://pages.aidy.site/stock/auto_repair-0.jpg",
+   "alt": ""
+  },
+  {
+   "url": "https://pages.aidy.site/stock/auto_repair-1.jpg",
+   "alt": ""
+  },
+  {
+   "url": "https://pages.aidy.site/stock/auto_repair-2.jpg",
+   "alt": ""
+  }
+ ]
+}
